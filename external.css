@@ -4,10 +4,11 @@ body{
 }
 
 h1{
-  background-color:#DAD66F;
-  font-size: 2.5em;
-  padding: 10px;
-  text-shadow: 2px 2px 2px #bbbbbb;
+    background-color:#DAD66F;
+    font-size: 8em;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 3px 3px 3px #bbbbbb;
 }
 
 h2{
