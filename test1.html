@@ -4,13 +4,13 @@
 <style>
 
 body {
-  width: 100%;
-  height: 100%;
-  background: #000;
-  overflow: hidden;
+    background: #000;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
 }
 
-.fade {
+.fading {
   position: relative;
   width: 100%;
   min-height: 60vh;
@@ -19,7 +19,7 @@ body {
   z-index: 1;
 }
 
-.star-wars {
+.board {
     color: #fdd73d;
     display: flex;
     font-family: 'Pathway Gothic One', sans-serif;
@@ -27,31 +27,31 @@ body {
     font-weight: 600%;
     height: 400px;
     justify-content: center;
-    letter-spacing: 6px;
+    letter-spacing: 8px;
     line-height: 150%;
     perspective: 600px;
     position: relative;
     text-align: justify;
 }
 
-.crawl {
+.crawling {
     animation: crawl 45s linear;
     position: relative;
     top: 9999px;
     transform-origin: 50% 100%;
 }
 
-.crawl > .title {
+.crawling > .title {
     font-size: 90%;
     text-align: center;
 }
 
-.crawl > .title h1 {
+.crawling > .title h1 {
     margin: 0 0 100px;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
-@keyframes crawl {
+@keyframes crawling {
   0% {
     top: 0;
     transform: rotateX(20deg) translateZ(0);
@@ -65,15 +65,14 @@ body {
 </head>
 <body>
 
-<div class="fade"></div>
+<div class="fading"></div>
 
-<section class="star-wars">
+<section class="board">
 
-  <div class="crawl">
+  <div class="crawling">
 
     <div class="title">
-      <p>Web Tech</p>
-      <h1>Battle Quiz</h1>
+      <h1>Web Tech Battle Quiz</h1>
     </div>
     
     <p>Once upon a time....in a classroom far away      
