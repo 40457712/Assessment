@@ -20,3 +20,54 @@ p{
   font-size: 1.4em;
   text-align: center;
 }
+
+.fading {
+    position: relative;
+    width: 100%;
+    min-height: 60vh;
+    top: -25px;
+    z-index: 1;
+  }
+  
+  .board {
+      color: #fdd73d;
+      display: flex;
+      font-family: 'Pathway Gothic One', sans-serif;
+      font-size: 500%;
+      font-weight: 600;
+      height: 400px;
+      justify-content: center;
+      letter-spacing: 8px;
+      line-height: 150%;
+      perspective: 600px;
+      position: relative;
+      text-align: justify;
+  }
+  
+  .crawl {
+      animation: crawl 30s linear;
+      position: relative;
+      top: 9999px;
+      transform-origin: 50% 100%;
+  }
+  
+  .crawl > .title {
+      font-size: 90%;
+      text-align: center;
+  }
+  
+  .crawl > .title h1 {
+      margin: 0 0 100px;
+      text-transform: capitalize;
+  }
+  
+  @keyframes crawl {
+    0% {
+      top: 400px;
+      transform: rotateX(20deg) translateZ(-400px);
+    }
+    100% { 
+      top: -6000px;
+      transform: rotateX(25deg) translateZ(-2500px);
+    }
+  }
