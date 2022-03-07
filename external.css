@@ -1,4 +1,7 @@
-body{background-color:#000000;}
+body{
+    background-color:#000000;
+    background-image: image(url(images/starfield.jpeg));
+}
 
 h1{
   background-color:#DAD66F;
