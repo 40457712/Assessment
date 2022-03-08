@@ -16,7 +16,6 @@ body {
 <script type="text/javascript">
 
   function code(){
-  alert(" Alert music playing now..");
   document.getElementById('sound').muted = false;
   document.getElementById('sound').play();
   }
@@ -25,7 +24,8 @@ body {
 </head>
 <body onLoad="code()">
   <h1>Web Tech Battle Quiz</h1>
-  <audio id="sound" preload="auto" src="sound/theimperialmarch.mp3" hidden autoplay muted>
+  <audio id="sound" preload="auto" src="sound/theimperialmarch.mp3" autoplay muted>
+  Click to play the soundtrack
   </audio>
   <button>PLAY QUIZ</button>
 
