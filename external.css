@@ -72,10 +72,10 @@ button {
   }
   
   .move {
-      animation: move 38s linear;
-      -o-animation: move 38s linear;
-      -moz-animation: move 38s linear;
-      -webkit-animation: move 38s linear;
+      animation: move 38s infinite;
+      -o-animation: move 38s infinite;
+      -moz-animation: move 38s infinite;
+      -webkit-animation: move 38s infinite;
       position: relative;
       top: 9999px;
       transform-origin: 50% 100%;
