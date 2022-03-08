@@ -33,11 +33,13 @@ nav{
 
 button {
   background-color: #DAD66F;
-  border-radius: 20%;
+  border-radius: 25%;
   color: black;
   font-size: 2em;
-  height: 60px;
+  height: auto;
   margin: 20px;
+  padding: 30px;
+  text-align: center;
   visibility: hidden;
 }
 
