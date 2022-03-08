@@ -99,7 +99,7 @@ button {
   @-o-keyframes move {
     0% {
       top: 400px;
-      transform: rotateX(20deg) translateZ(-400px);
+      transform: rotateX(20deg) translateZ(-300px);
     }
     100% { 
       top: -6000px;
@@ -110,7 +110,7 @@ button {
   @-moz-keyframes move {
     0% {
       top: 400px;
-      transform: rotateX(20deg) translateZ(-400px);
+      transform: rotateX(20deg) translateZ(-300px);
     }
     100% { 
       top: -6000px;
@@ -121,7 +121,7 @@ button {
   @-webkit-keyframes move {
     0% {
       top: 400px;
-      transform: rotateX(20deg) translateZ(-400px);
+      transform: rotateX(20deg) translateZ(-300px);
     }
     100% { 
       top: -6000px;
