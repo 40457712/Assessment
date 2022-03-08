@@ -55,10 +55,10 @@ nav{
   }
   
   .move {
-      animation: move 30s linear;
-      -o-animation: : move 30s linear;
-      -moz-animation: : move 30s linear;
-      -webkit-animation: : move 30s linear;
+      animation: move linear;
+      -o-animation: move linear;
+      -moz-animation: move linear;
+      -webkit-animation: move linear;
       position: relative;
       top: 9999px;
       transform-origin: 50% 100%;
