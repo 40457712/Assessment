@@ -5,10 +5,10 @@ body{
 
 h1{
     background-color:#DAD66F;
-    font-size: 7em;
+    font-size: 6em;
     padding: 10px;
     text-align: center;
-    text-shadow: 3px 3px 3px #bbbbbb;
+    text-shadow: 4px 4px 4px #bbbbbb;
 }
 
 h2{
@@ -35,15 +35,19 @@ button {
   background-color: #DAD66F;
   border-radius: 20%;
   color: black;
-  font-size: 1.7em;
+  font-size: 1.8em;
   height: 60px;
   visibility: hidden;
 }
 
-#header, #section {
-  margin:auto;
-  text-align: center;
-  width: auto;
+#header {
+  top:0px;
+  left:10px;
+}
+
+#section {
+  top:0px;
+  right:10px;
 }
 
 .fading {
