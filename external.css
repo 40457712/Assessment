@@ -33,14 +33,16 @@ nav{
 
 button {
   background-color: #DAD66F;
-  border-radius: 50%;
+  border-radius: 20%;
   color: black;
-  font-size: 1.5em;
+  font-size: 1.7em;
   height: 60px;
+  width: 300px;
+}
+
+#sound {
   margin:auto;
   text-align: center;
-  top: 25%;
-  width: 200px;
 }
 
 .fading {
