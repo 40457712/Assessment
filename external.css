@@ -66,10 +66,10 @@ button {
   }
   
   .move {
-      animation: move 120s linear;
-      -o-animation: move 120s linear;
-      -moz-animation: move 120s linear;
-      -webkit-animation: move 120s linear;
+      animation: move 45s linear;
+      -o-animation: move 45s linear;
+      -moz-animation: move 45s linear;
+      -webkit-animation: move 45s linear;
       position: relative;
       top: 9999px;
       transform-origin: 50% 100%;
@@ -91,7 +91,7 @@ button {
       transform: rotateX(20deg) translateZ(-300px);
     }
     100% { 
-      top: -6000px;
+      top: -7000px;
       transform: rotateX(25deg) translateZ(-2500px);
     }
   }
@@ -102,7 +102,7 @@ button {
       transform: rotateX(20deg) translateZ(-300px);
     }
     100% { 
-      top: -6000px;
+      top: -7000px;
       transform: rotateX(25deg) translateZ(-2500px);
     }
   }
@@ -113,7 +113,7 @@ button {
       transform: rotateX(20deg) translateZ(-300px);
     }
     100% { 
-      top: -6000px;
+      top: -7000px;
       transform: rotateX(25deg) translateZ(-2500px);
     }
   }
@@ -124,7 +124,7 @@ button {
       transform: rotateX(20deg) translateZ(-300px);
     }
     100% { 
-      top: -6000px;
+      top: -7000px;
       transform: rotateX(25deg) translateZ(-2500px);
     }
   }
