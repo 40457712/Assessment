@@ -41,13 +41,15 @@ button {
 }
 
 #header {
-  top:0px;
   left:10px;
+  position: absolute;
+  top:0px;
 }
 
 #section {
-  top:0px;
   right:10px;
+  position: absolute;
+  top:0px;
 }
 
 .fading {
