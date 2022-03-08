@@ -13,7 +13,7 @@ body {
 }
 </style>
 <script>
-  setInterval(buttonshow, 3000);
+  setInterval(buttonshow, 10000);
 
   function buttonshow() 
   { document.getElementById("play").style.visibility = "visible";
@@ -23,10 +23,14 @@ body {
 </head>
 <body>
   <h1>Web Tech Battle Quiz</h1>
-  <audio id="sound" preload="auto" src="sound/theimperialmarch.mp3" controls autoplay="true">
+  <header>
+    <audio id="sound" preload="auto" src="sound/theimperialmarch.mp3" controls autoplay="true">
   </audio>
-  <button id="play">PLAY QUIZ</button>
-
+  </header>
+  <section>
+    <button id="play">PLAY QUIZ</button>
+  </section>
+  
 <div class="fading"></div>
 
 <section class="board">
