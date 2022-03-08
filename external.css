@@ -32,8 +32,8 @@ nav{
 }
 
 button {
-  top:50%;
-  left:50%;
+  top: 25%;
+  left: 50%;
   width: 200px;
   height: 60px;
   background-color: #DAD66F;
@@ -66,10 +66,10 @@ button {
   }
   
   .move {
-      animation: move 60s linear;
-      -o-animation: move 60s linear;
-      -moz-animation: move 60s linear;
-      -webkit-animation: move 60s linear;
+      animation: move 120s linear;
+      -o-animation: move 120s linear;
+      -moz-animation: move 120s linear;
+      -webkit-animation: move 120s linear;
       position: relative;
       top: 9999px;
       transform-origin: 50% 100%;
@@ -88,7 +88,7 @@ button {
   @keyframes move {
     0% {
       top: 400px;
-      transform: rotateX(20deg) translateZ(-400px);
+      transform: rotateX(20deg) translateZ(-300px);
     }
     100% { 
       top: -6000px;
