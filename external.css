@@ -46,10 +46,10 @@ nav{
 }
 
 #header {
-  left:10px;
+  left:0px;
   position: relative;
   top:0px;
-  width:800px;
+  width:auto;
 }
 
 .fading {
