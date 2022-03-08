@@ -51,11 +51,12 @@ button {
 }
 
 .fading {
-    position: relative;
-    width: 100%;
-    min-height: 60vh;
-    top: -25px;
-    z-index: 1;
+  opacity: 0;
+  position: relative;
+  min-height: 60vh;
+  top: -25px;
+  z-index: 1;
+  width: 100%;
   }
   
   .board {
@@ -95,13 +96,11 @@ button {
   
   @keyframes move {
     0% {
-      opacity: 1;
       top: 350px;
       transform: rotateX(20deg) translateZ(-300px);
     }
     100% { 
-      opacity: 0;
-      top: -10000px;
+      top: -15000px;
       transform: rotateX(25deg) translateZ(-2500px);
     }
   }
