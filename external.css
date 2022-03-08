@@ -74,10 +74,10 @@ button {
   }
   
   .move {
-      animation: move 45s linear;
-      -o-animation: move 45s linear;
-      -moz-animation: move 45s linear;
-      -webkit-animation: move 45s linear;
+      animation: move 38s linear;
+      -o-animation: move 38s linear;
+      -moz-animation: move 38s linear;
+      -webkit-animation: move 38s linear;
       position: relative;
       top: 9999px;
       transform-origin: 50% 100%;
@@ -95,7 +95,7 @@ button {
   
   @keyframes move {
     0% {
-      top: 400px;
+      top: 350px;
       transform: rotateX(20deg) translateZ(-300px);
     }
     100% { 
@@ -106,7 +106,7 @@ button {
 
   @-o-keyframes move {
     0% {
-      top: 400px;
+      top: 350px;
       transform: rotateX(20deg) translateZ(-300px);
     }
     100% { 
@@ -117,7 +117,7 @@ button {
 
   @-moz-keyframes move {
     0% {
-      top: 400px;
+      top: 350px;
       transform: rotateX(20deg) translateZ(-300px);
     }
     100% { 
@@ -128,7 +128,7 @@ button {
 
   @-webkit-keyframes move {
     0% {
-      top: 400px;
+      top: 350px;
       transform: rotateX(20deg) translateZ(-300px);
     }
     100% { 
