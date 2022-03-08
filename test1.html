@@ -17,16 +17,15 @@ body {
 
   function code(){
   alert(" Alert music playing now..");
-  var audio = document.createElement("audio");
-  audio.load()
-  audio.play();
+  document.getElementById('sound').muted = false;
+  document.getElementById('sound').play();
   }
  
 </script>
 </head>
 <body onLoad="code()">
   <h1>Web Tech Battle Quiz</h1>
-  <audio preload="auto" src="sound/theimperialmarch.mp3" hidden>
+  <audio id="sound" preload="auto" src="sound/theimperialmarch.mp3" hidden autoplay muted>
   </audio>
   <button>PLAY QUIZ</button>
 
