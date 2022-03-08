@@ -35,8 +35,9 @@ button {
   background-color: #DAD66F;
   border-radius: 20%;
   color: black;
-  font-size: 1.8em;
+  font-size: 2em;
   height: 60px;
+  margin: 20px;
   visibility: hidden;
 }
 
