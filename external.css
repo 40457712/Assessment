@@ -37,6 +37,7 @@ button {
   color: black;
   font-size: 1.5em;
   height: 60px;
+  margin:auto;
   text-align: center;
   top: 25%;
   width: 200px;
