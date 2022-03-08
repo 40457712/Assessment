@@ -32,14 +32,13 @@ nav{
 }
 
 button {
-  top: 25%;
-  left: 50%;
-  width: 200px;
-  height: 60px;
   background-color: #DAD66F;
-  font-size: 1.5em;
   border-radius: 50%;
   color: black;
+  font-size: 1.5em;
+  height: 60px;
+  top: 25%;
+  width: 200px;
 }
 
 .fading {
