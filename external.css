@@ -40,7 +40,7 @@ button {
   width: 300px;
 }
 
-#sound {
+#sound #play {
   margin:auto;
   text-align: center;
 }
