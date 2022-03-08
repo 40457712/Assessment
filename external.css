@@ -66,10 +66,10 @@ button {
   }
   
   .move {
-      animation: move linear;
-      -o-animation: move linear;
-      -moz-animation: move linear;
-      -webkit-animation: move linear;
+      animation: move 60s linear;
+      -o-animation: move 60s linear;
+      -moz-animation: move 60s linear;
+      -webkit-animation: move 60s linear;
       position: relative;
       top: 9999px;
       transform-origin: 50% 100%;
