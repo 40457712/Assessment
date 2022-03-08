@@ -93,11 +93,13 @@ button {
   
   @keyframes move {
     0% {
+      opacity: 1;
       top: 350px;
       transform: rotateX(20deg) translateZ(-300px);
     }
     100% { 
-      top: -7000px;
+      opacity: 0;
+      top: -10000px;
       transform: rotateX(25deg) translateZ(-2500px);
     }
   }
@@ -108,7 +110,7 @@ button {
       transform: rotateX(20deg) translateZ(-300px);
     }
     100% { 
-      top: -7000px;
+      top: -10000px;
       transform: rotateX(25deg) translateZ(-2500px);
     }
   }
@@ -119,7 +121,7 @@ button {
       transform: rotateX(20deg) translateZ(-300px);
     }
     100% { 
-      top: -7000px;
+      top: -10000px;
       transform: rotateX(25deg) translateZ(-2500px);
     }
   }
@@ -130,7 +132,7 @@ button {
       transform: rotateX(20deg) translateZ(-300px);
     }
     100% { 
-      top: -7000px;
+      top: -10000px;
       transform: rotateX(25deg) translateZ(-2500px);
     }
   }
