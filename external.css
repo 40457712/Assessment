@@ -28,7 +28,16 @@ p{
 
 nav{
   font-size: 2em;
-    text-align: center;
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 60px;
+  background-color: #DAD66F;
+  font-size: 1.5em;
+  border-radius: 50%;
+  color: black;
 }
 
 .fading {
