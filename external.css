@@ -55,7 +55,10 @@ nav{
   }
   
   .move {
-      animation: crawl 30s linear;
+      animation: move 30s linear;
+      -o-animation: : move 30s linear;
+      -moz-animation: : move 30s linear;
+      -webkit-animation: : move 30s linear;
       position: relative;
       top: 9999px;
       transform-origin: 50% 100%;
@@ -72,6 +75,39 @@ nav{
   }
   
   @keyframes move {
+    0% {
+      top: 400px;
+      transform: rotateX(20deg) translateZ(-400px);
+    }
+    100% { 
+      top: -6000px;
+      transform: rotateX(25deg) translateZ(-2500px);
+    }
+  }
+
+  @-o-keyframes move {
+    0% {
+      top: 400px;
+      transform: rotateX(20deg) translateZ(-400px);
+    }
+    100% { 
+      top: -6000px;
+      transform: rotateX(25deg) translateZ(-2500px);
+    }
+  }
+
+  @-moz-keyframes move {
+    0% {
+      top: 400px;
+      transform: rotateX(20deg) translateZ(-400px);
+    }
+    100% { 
+      top: -6000px;
+      transform: rotateX(25deg) translateZ(-2500px);
+    }
+  }
+
+  @-webkit-keyframes move {
     0% {
       top: 400px;
       transform: rotateX(20deg) translateZ(-400px);
