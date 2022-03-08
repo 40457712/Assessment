@@ -12,12 +12,19 @@ body {
     width: 100%;
 }
 </style>
+
+<script type="text/javascript">
+
+  function code(){
+  alert(" Alert music playing now..");
+  audioElement.play();
+  }
+ 
+</script>
 </head>
-<body>
+<body onLoad="code()">
   <h1>Web Tech Battle Quiz</h1>
-  <audio autoplay preload="auto" hidden>
-    <source src="sound/theimperialmarch.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
+  <audio preload="auto" src="sound/theimperialmarch.mp3" hidden>
   </audio>
   <button>PLAY QUIZ</button>
 
