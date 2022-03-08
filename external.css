@@ -44,12 +44,14 @@ button {
   left:10px;
   position: absolute;
   top:0px;
+  width:800px;
 }
 
 #section {
   right:10px;
   position: absolute;
   top:0px;
+  width:800px;
 }
 
 .fading {
