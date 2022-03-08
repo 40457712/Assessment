@@ -101,7 +101,13 @@ nav{
       top: 350px;
       transform: rotateX(20deg) translateZ(-300px);
     }
+    90% { 
+      opacity: 1;
+      top: -6500px;
+      transform: rotateX(25deg) translateZ(-2500px);
+    }
     100% { 
+      opacity: 0;
       top: -6500px;
       transform: rotateX(25deg) translateZ(-2500px);
     }
