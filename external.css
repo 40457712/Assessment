@@ -27,11 +27,13 @@ p{
 }
 
 nav{
-  font-size: 2em;
+  justify-content: space-evenly;
+  margin: 0;
   text-align: center;
+  top:25%;
 }
 
-button {
+#button {
   background-color: #DAD66F;
   border-radius: 25%;
   color: black;
