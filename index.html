@@ -3,35 +3,57 @@
 <head>
     <script type="text/javascript" src="js/javascript.js"></script>
     <link rel="stylesheet" href="css/external.css" type="text/css" />
-    <meta charset ="UTF -8" />
-    <title>Web Tech Assessment by Andrew Hack 40457712</title>
+
+<style>
+
+body {
+    background-image: url("images/starfield.jpg");
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+</style>
+<script>
+  setInterval(buttonshow, 30000);
+
+  function buttonshow() 
+  { document.getElementById("button").style.visibility = "visible";
+  }
+
+</script> 
 </head>
 <body>
-    <audio controls autoplay>
-        <source src="theimperialmarch.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-      </audio>
-<div class="grid-container">
-<header class="item1">
-<h1>Star Wars Battle Quiz</h1>
-<hr />
-</header>
-<nav class="item2">
-<a href ="test1.html">Test 1 Page</a>
-<a href ="">Main</a>
-<a href =""></a>
-<a href =""></a>
-</nav>
-<section class="item3">
-<main>
-<p><img src="images/swbackground.jpg" height="800px" width="800px">
-</p>
-<p>
-</p>
-</main>
+  <header>
+    <audio id="sound" preload="auto" src="sound/theimperialmarch.mp3" controls autoplay="true">
+    </audio>
+    <nav class="item2">
+      <a id="button" href ="https://40457712.github.io/assessment/main.html"> PLAY QUIZ </a>
+    </nav>
+  <h1>Web Tech Battle Quiz</h1>
+  </header>
+    
+<div class="fading"></div>
+
+<section class="board">
+
+  <div class="move">
+    <div class="title">Once upon a time....in a classroom far far away</div>
+    <p>a student studying Web Tech, his Jedi Master lecturer Simon Wells...
+      set the assessment Andrew Hack 40457712 created this Star Wars Battle Quiz,</p>
+    <p>the aim of the assessment, add features to a quiz to make it fun and 
+      entertaining, Rebel Alliance V Imperial Dark side in a battle quiz</p> 
+    <p>Good V Evil</p>
+    <p>And hope to restore freedom to the galaxy! Not quite.</p>
+    <p></p>
+    <p></p>
+    <p></p>
+
+  </div>
+
 </section>
-<aside class="item4">A Side item</aside>
-<footer class="item5">&copy; 2022 - Star Wars Battle Quiz - All rights reserved </footer>
-</div>
+<footer>
+  
+</footer>
+
 </body>
 </html>
