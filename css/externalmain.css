@@ -1,26 +1,47 @@
-.item1 { 
+.item1 .item2 .item3 .item4 .item5 .item6 .item7 .item8 {
+    border-color: burlywood; 
+    border-width: 5px;
+}
+
+.item1 {
     grid-area: user;
+    height: 400px;
+    width: 400px;
 }
   .item2 { 
     grid-area: header;
+    height: 400px;
+    width: 400px;
 }
   .item3 { 
     grid-area: timer;
+    height: 400px;
+    width: 400px;
 }
   .item4 {
     grid-area: asideL;
+    height: 800px;
+    width: 400px;
  }
   .item5 { 
     grid-area: qana;
+    height: 400px;
+    width: 400px;
  }
  .item6 { 
     grid-area: asideR;
+    height: 800px;
+    width: 400px;
  }
  .item7 { 
     grid-area: scrol;
+    height: 200px;
+    width: 400px;
  }
  .item8 { 
     grid-area: footer;
+    height: 200px;
+    width: 400px;
  }
   
   .grid-container {
