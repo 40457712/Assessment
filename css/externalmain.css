@@ -30,8 +30,14 @@ hr {
   width: 300px;
 }
 .item2 h1{
- font-size: 2em;
+ font-size: 1.8em;
+ padding-bottom: 10%;
 }
+.item2 h2{
+  font-size: 1.6em;
+  padding-top: 10%;
+ }
+
 .item3 { 
   grid-area: timer;
   height: 300px;
