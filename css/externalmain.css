@@ -6,6 +6,7 @@
 }
 
 .item1 {
+    transform: scaleX(-1);
     grid-area: user;
     height: 400px;
     width: 400px;
