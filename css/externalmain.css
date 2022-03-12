@@ -7,10 +7,12 @@ hr {
 }
 
 .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8 {
-  align-items: center;
   background-color: green;
   color:white;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:2px;
   place-items: center;
 }
 
@@ -22,8 +24,7 @@ hr {
 .item1 img {
   transform: scaleX(-1);
 }
-.item2 { 
-  flex-direction: column;
+.item2 {
   grid-area: header;
   height: 300px;
   width: 300px;
