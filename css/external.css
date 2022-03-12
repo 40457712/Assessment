@@ -77,13 +77,13 @@ nav{
   }
   
   .move {
-      animation: move 42s infinite;
-      -o-animation: move 42s infinite;
-      -moz-animation: move 42s infinite;
-      -webkit-animation: move 42s infinite;
-      position: relative;
-      top: 9999px;
-      transform-origin: 50% 100%;
+    animation: 42s move 10s;
+    -o-animation: move 42s infinite;
+    -moz-animation: move 42s infinite;
+    -webkit-animation: move 42s infinite;
+    position: relative;
+    top: 9999px;
+    transform-origin: 50% 100%;
   }
   
   .move > .title {
