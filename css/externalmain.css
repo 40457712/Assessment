@@ -1,7 +1,4 @@
 .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8 {
-    background-color: green;
-    border-color: burlywood; 
-    border-width: 5px;
     color:white;
     vertical-align: middle;
 }
@@ -37,7 +34,7 @@
  .item6 { 
     grid-area: asideR;
     height: 600px;
-    width: 400px;
+    width: 300px;
  }
  .item7 { 
     grid-area: scrol;
@@ -57,7 +54,6 @@
       'asideL qana asideR'
       'asideL scrol asideR'
       'asideL footer asideR';
-    gap: 10px;
-    padding: 10px;
+    gap: 6px;
     text-align: center; 
   }
