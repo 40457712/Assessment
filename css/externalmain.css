@@ -18,23 +18,25 @@
     width: 300px;
 }
   .item3 { 
+    display: flex;
     grid-area: timer;
+    align-items: center;
     height: 300px;
     width: 300px;
 }
   .item4 {
     grid-area: asideL;
-    height: 600px;
+    height: 900px;
     width: 300px;
  }
   .item5 { 
     grid-area: qana;
-    height: 300px;
+    height: 600px;
     width: 300px;
  }
  .item6 { 
     grid-area: asideR;
-    height: 600px;
+    height: 900px;
     width: 300px;
  }
  .item7 { 
@@ -56,7 +58,7 @@
       'asideL qana asideR'
       'asideL scrol asideR'
       'asideL footer asideR';
-    gap: 6px;
+    gap: 3px;
     text-align: center;
     justify-content: center;
 
