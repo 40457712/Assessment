@@ -8,7 +8,7 @@
     height: 300px;
     width: 300px;
 }
-.item img {
+.item1 img {
     transform: scaleX(-1);
 }
   .item2 { 
