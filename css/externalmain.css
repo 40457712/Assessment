@@ -6,45 +6,47 @@
 }
 
 .item1 {
-    transform: scaleX(-1);
     grid-area: user;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
+}
+.item img {
+    transform: scaleX(-1);
 }
   .item2 { 
     grid-area: header;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
 }
   .item3 { 
     grid-area: timer;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
 }
   .item4 {
     grid-area: asideL;
-    height: 800px;
-    width: 400px;
+    height: 600px;
+    width: 300px;
  }
   .item5 { 
     grid-area: qana;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
  }
  .item6 { 
     grid-area: asideR;
-    height: 800px;
+    height: 600px;
     width: 400px;
  }
  .item7 { 
     grid-area: scrol;
-    height: 200px;
-    width: 400px;
+    height: 150px;
+    width: 300px;
  }
  .item8 { 
     grid-area: footer;
-    height: 200px;
-    width: 400px;
+    height: 150px;
+    width: 300px;
  }
   
   .grid-container {
@@ -57,10 +59,4 @@
     gap: 10px;
     padding: 10px;
     text-align: center; 
-  }
-  
-  .grid-container > div {
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
   }
