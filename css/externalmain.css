@@ -1,65 +1,64 @@
 .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8 {
-    background-color: green;
-    color:white;
-    place-items: center;
+  align-items: center;
+  background-color: green;
+  color:white;
+  display: flex;
+  place-items: center;
 }
 
 .item1 {
-    grid-area: user;
-    height: 300px;
-    width: 300px;
+  grid-area: user;
+  height: 300px;
+  width: 300px;
 }
 .item1 img {
-    transform: scaleX(-1);
+  transform: scaleX(-1);
 }
-  .item2 { 
-    grid-area: header;
-    height: 300px;
-    width: 300px;
+.item2 { 
+  grid-area: header;
+  height: 300px;
+  width: 300px;
 }
-  .item3 { 
-    display: flex;
-    grid-area: timer;
-    align-items: center;
-    height: 300px;
-    width: 300px;
+.item3 { 
+  grid-area: timer;
+  height: 300px;
+  width: 300px;
 }
-  .item4 {
-    grid-area: asideL;
-    height: 900px;
-    width: 300px;
+.item4 {
+  grid-area: asideL;
+  height: 900px;
+  width: 300px;
  }
-  .item5 { 
-    grid-area: qana;
-    height: 600px;
-    width: 300px;
+.item5 { 
+  grid-area: qana;
+  height: 600px;
+  width: 300px;
  }
  .item6 { 
-    grid-area: asideR;
-    height: 900px;
-    width: 300px;
+  grid-area: asideR;
+  height: 900px;
+  width: 300px;
  }
- .item7 { 
-    grid-area: scrol;
-    height: 150px;
-    width: 300px;
+.item7 { 
+  grid-area: scrol;
+  height: 150px;
+  width: 300px;
  }
- .item8 { 
-    grid-area: footer;
-    height: 150px;
-    width: 300px;
+.item8 { 
+  grid-area: footer;
+  height: 150px;
+  width: 300px;
  }
   
-  .grid-container {
-    align-items: center; 
-    display: grid;
-    grid-template-areas:
-      'user header timer'
-      'asideL qana asideR'
-      'asideL scrol asideR'
-      'asideL footer asideR';
-    gap: 3px;
-    text-align: center;
-    justify-content: center;
-
+.grid-container {
+  align-items: center; 
+  display: grid;
+  grid-template-areas:
+  'user header timer'
+  'asideL qana asideR'
+  'asideL scrol asideR'
+  'asideL footer asideR';
+  gap: 3px;
+  text-align: center;
+  justify-content: center;
   }
