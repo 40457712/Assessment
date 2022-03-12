@@ -1,20 +1,35 @@
 .item1 { 
-    grid-area: header;
-  }
+    grid-area: user;
+}
   .item2 { 
-    grid-area: nav;
-  }
-  .item3 { grid-area: section; }
-  .item4 { grid-area: aside; }
-  .item5 { grid-area: footer; }
+    grid-area: header;
+}
+  .item3 { 
+    grid-area: timer;
+}
+  .item4 {
+    grid-area: asideL;
+ }
+  .item5 { 
+    grid-area: qana;
+ }
+ .item6 { 
+    grid-area: asideR;
+ }
+ .item7 { 
+    grid-area: scrol;
+ }
+ .item8 { 
+    grid-area: footer;
+ }
   
   .grid-container {
     display: grid;
     grid-template-areas:
-      'header header'
-      'nav nav'
-      'section aside'
-      'footer footer';
+      'user header timer'
+      'asideL qana asideR'
+      'asideL scrol asideR'
+      'asideL footer asideR';
     gap: 10px;
     padding: 10px;
     text-align: center; 
