@@ -1,7 +1,8 @@
-.item1 .item2 .item3 .item4 .item5 .item6 .item7 .item8 {
+.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8 {
     background-color: green;
     border-color: burlywood; 
     border-width: 5px;
+    color:white;
 }
 
 .item1 {
