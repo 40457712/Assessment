@@ -77,10 +77,12 @@ nav{
   }
   
   .move {
-    animation: 42s move 10s;
-    -o-animation: move 42s infinite;
-    -moz-animation: move 42s infinite;
-    -webkit-animation: move 42s infinite;
+    /* name, duration, timing-function, delay, iteration-count */
+    animation: move 42s linear 20s 1;
+    -o-animation: move 42s linear 20s 1;
+    -moz-animation: move 42s linear 20s 1;
+    -webkit-animation: move 42s linear 20s 1;
+    /* move 42s infinite;*/
     position: relative;
     top: 9999px;
     transform-origin: 50% 100%;
