@@ -1,3 +1,3 @@
 function show() {
-    alert("External JavaScript file.");
+    alert("Remember to turn on the sound by clicking on the play button");
  }
