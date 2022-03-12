@@ -1,3 +1,7 @@
+hr {
+  width: 50%;
+}
+
 .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8 {
   align-items: center;
   background-color: green;
@@ -21,7 +25,7 @@
   width: 300px;
 }
 .item2 h1{
- font-size:1em;
+ font-size: 2em;
 }
 .item3 { 
   grid-area: timer;
