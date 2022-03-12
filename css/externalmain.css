@@ -15,9 +15,13 @@
   transform: scaleX(-1);
 }
 .item2 { 
+  flex-direction: column;
   grid-area: header;
   height: 300px;
   width: 300px;
+}
+.item2 h1{
+ font-size:1em;
 }
 .item3 { 
   grid-area: timer;
