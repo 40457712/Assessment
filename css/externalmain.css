@@ -7,7 +7,6 @@ hr {
 }
 
 progress {
-  background-image: src("https://40457712.github.io/assessment/images/lightsabreblue.jpg");
   font-size: 50px;
   width: 290px;
   height: 30px;
@@ -87,8 +86,8 @@ main {
  }
 .item7 { 
   grid-area: scrol;
-  height: 150px;
-  width: 300px;
+  height: 120px;
+  width: 900px;
  }
 .item8 { 
   grid-area: footer;
