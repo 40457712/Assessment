@@ -97,7 +97,7 @@ main {
   grid-template-areas:
   'user header timer'
   'asideL qana asideR'
-  'asideL scrol asideR'
+  'scrol scrol scrol'
   'footer footer footer';
   text-align: center;
   justify-content: center;
