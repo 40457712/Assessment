@@ -1,9 +1,9 @@
 hr {
-  background-color: gray;
+  background-color: rgb(214, 214, 214);
   border-width:3px;
-  color: gray;
+  color: rgb(105, 105, 105);
   height: 3px;
-  width: 80%;
+  width: 90%;
 }
 
 .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8 {
@@ -53,6 +53,7 @@ hr {
 .item5 { 
   grid-area: qana;
   height: 600px;
+  padding: 10px;
   width: 300px;
  }
  .item6 { 
