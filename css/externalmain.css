@@ -21,7 +21,11 @@ progress::-webkit-progress-bar {
   background: red;
 }
 
-.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8 {
+main {
+  padding: 10px;
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, main {
   background-color: green;
   color:white;
   display: flex;
