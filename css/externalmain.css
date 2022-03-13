@@ -30,10 +30,12 @@ hr {
   width: 300px;
 }
 .item2 h1{
- font-size: 1.8em;
- padding-bottom: 10%;
+  background-color: green;
+  font-size: 1.8em;
+  padding-bottom: 10%;
 }
 .item2 h2{
+  background-color: green;
   font-size: 1.6em;
   letter-spacing: 2px;
   padding-top: 10%;
