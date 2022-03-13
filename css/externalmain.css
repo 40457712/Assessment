@@ -7,19 +7,19 @@ hr {
 }
 
 progress {
-  
+  background-image: src("https://40457712.github.io/assessment/images/lightsabreblue.jpg");
   font-size: 50px;
   width: 290px;
   height: 30px;
 }
 
 progress::-webkit-progress-value {
-  background-image: src("https://40457712.github.io/assessment/images/lightsabreblue.jpg");
+  background-color: blue;
   
 }
 
 progress::-webkit-progress-bar {
-  background: red;
+  background-color: red;
 }
 
 main {
@@ -70,7 +70,11 @@ main {
   width: 300px;
  }
 .item5 { 
+  border: 10px;
+  border-color: #DAD66F;
+  border-radius: 5px;
   grid-area: qana;
+  justify-content: space-evenly;
   height: 600px;
   width: 300px;
  }
@@ -98,7 +102,7 @@ main {
   grid-template-areas:
   'user header timer'
   'asideL qana asideR'
-  'scrol scrol asideR'
+  'scrol scrol scrol'
   'footer footer footer';
   text-align: center;
   justify-content: center;
