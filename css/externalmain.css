@@ -14,7 +14,7 @@ progress {
 }
 
 progress::-webkit-progress-value {
-  background: blue;
+  background-image: url(src="https://40457712.github.io/assessment/images/stormtrooperAT290X590.jpg");
 }
 
 progress::-webkit-progress-bar {
