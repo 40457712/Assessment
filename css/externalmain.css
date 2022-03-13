@@ -72,7 +72,6 @@ main {
 .item5 { 
   grid-area: qana;
   height: 600px;
-  padding: 10px;
   width: 300px;
  }
  .item6 { 
