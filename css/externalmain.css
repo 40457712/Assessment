@@ -70,8 +70,7 @@ main {
   width: 300px;
  }
 .item5 { 
-  border: 10px;
-  border-color: #DAD66F;
+  border: 10px #DAD66F solid;
   border-radius: 5px;
   grid-area: qana;
   justify-content: space-evenly;
