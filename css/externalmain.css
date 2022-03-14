@@ -69,14 +69,22 @@ main {
   height: 600px;
   width: 300px;
  }
-.item5 { 
+ 
+ .item5 { 
   border: 10px #DAD66F solid;
-  border-radius: 5px;
+  border-radius: 10px;
+  display: grid;
   grid-area: qana;
-  justify-content: space-evenly;
   height: 600px;
+  padding:20px;
   width: 300px;
  }
+
+.item5 div {
+ font-size: 30px;
+ padding:20px;
+}
+
  .item6 { 
   grid-area: asideR;
   opacity: 0.7;
