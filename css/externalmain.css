@@ -27,6 +27,10 @@ main {
   visibility: hidden;
 }
 
+settings {
+  visibility: visible;
+}
+
 #buttonstart {
   background-color: #DAD66F;
   border-radius: 30%;
