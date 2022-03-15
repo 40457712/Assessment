@@ -23,5 +23,16 @@ function start() {
 }
 
 function change(swcharacter) {
-    alert("You have choosen Imperial Darkside " + swcharacter);
+    if( swcharacter === "C3PO" ) {
+        alert("You have choosen " + swcharacter + " character!");
+     }
+     if( swcharacter === "chewbacca" ) {
+        alert("You have choosen " + swcharacter + " character!");
+     }
+     if( swcharacter === "bobafett" ) {
+        alert("You have choosen " + swcharacter + " character!");
+     }
+     if( swcharacter === "darthmarl" ) {
+        alert("You have choosen " + swcharacter + " character!");
+     }
 }
