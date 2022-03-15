@@ -17,11 +17,7 @@ function show() {
 }
 
 function start() {
-    var el = document.getElementById('main');
-    el.style.padding = "20px";
-    document.getElementById("main").style.visibility = "visible";
-    document.getElementById("settings").style.visibility = "hidden";
-    alert("Starting soon");
+    alert("Quiz Starting soon please check back later");
 }
 
 function change(swcharacter) {
