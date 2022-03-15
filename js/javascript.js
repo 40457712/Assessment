@@ -7,10 +7,13 @@ function show() {
  }
 
  function imperial() {
-    alert("You have choosen Imperial Darkside")
-    document.getElementById('character').innerHTML = '<img src="https://40457712.github.io/assessment/images/bobafett400x397.jpg" alt="User characters" width="50" height="50"></img>';
+    document.getElementById('character').innerHTML = '<img src="https://40457712.github.io/assessment/images/bobafett400x397.jpg" onclick="change(bobafett)" alt="User characters" width="50" height="50"><img src="https://40457712.github.io/assessment/images/darthmaul290X290.jpg" onclick="change(bobafett) alt="User characters" width="50" height="50">';
  }
 
 function start() {
     alert("Starting soon")
+}
+
+function change(swcharacter) {
+    alert("You have choosen Imperial Darkside " + swcharacter)
 }
