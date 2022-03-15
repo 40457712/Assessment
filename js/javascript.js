@@ -9,7 +9,7 @@ function show() {
  }
 
  function imperial() {
-    document.getElementById('character').innerHTML = '<img src="https://40457712.github.io/assessment/images/bobafett400x397.jpg" onclick="change(/"bobafett/")" alt="User characters" width="50" height="50"><img src="https://40457712.github.io/assessment/images/darthmaul290X290.jpg" onclick="change(/"darthmarl/")" alt="User characters" width="50" height="50">';
+    document.getElementById('character').innerHTML = '<img src="https://40457712.github.io/assessment/images/bobafett400x397.jpg" onclick="change(&#34;bobafett&#34;)" alt="User characters" width="50" height="50">';
  }
 
 function start() {
