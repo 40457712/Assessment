@@ -27,6 +27,7 @@ function start() {
 function change(swcharacter) {
     if( swcharacter === "C3PO" ) {
         alert("You have choosen " + swcharacter + " character!");
+        document.getElementById('characterM').innerHTML + '<img src="https://40457712.github.io/assessment/images/c3po290X590.jpg" alt="c3po" width="80%" height="80%">';
      }
      if( swcharacter === "chewbacca" ) {
         alert("You have choosen " + swcharacter + " character!");
