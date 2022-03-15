@@ -31,6 +31,17 @@ main {
   visibility: hidden;
 }
 
+#buttonstart {
+  background-color: #DAD66F;
+  border-radius: 25%;
+  color: black;
+  font-size: 2em;
+  height: auto;
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
 .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, main {
   color:white;
   display: flex;
