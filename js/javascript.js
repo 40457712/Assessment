@@ -12,8 +12,8 @@ function show() {
 
 function start() {
     alert("Starting soon")
-    document.getElementById("settings").style.visibility = "hidden";
     document.getElementById("main").style.visibility = "visible";
+    document.getElementById("settings").style.visibility = "hidden";
 }
 
 function change(swcharacter) {
