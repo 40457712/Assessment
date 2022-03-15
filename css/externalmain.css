@@ -92,7 +92,7 @@ settings {
   color: rgb(39 133 171 / 1);
   display: grid;
   grid-area: qana;
-  height: auto;
+  height: 600px;
   padding:20px;
   width: 300px;
  }
