@@ -5,12 +5,13 @@ function show() {
  }
 
  function rebel() {
-     alert("You have choosen Rebel Alliance");
+    document.getElementById('characterR').innerHTML = '<img src="https://40457712.github.io/assessment/images/c3po290X590.jpg" onclick="change(&#34;C3PO&#34;)" alt="c3po" width="60" height="60">';
  }
 
  function imperial() {
-    document.getElementById('character').innerHTML = '<img src="https://40457712.github.io/assessment/images/bobafett400x397.jpg" onclick="change(&#34;bobafett&#34;)" alt="User characters" width="50" height="50">';
- }
+    document.getElementById('characterI').innerHTML = '<img src="https://40457712.github.io/assessment/images/bobafett400x397.jpg" onclick="change(&#34;bobafett&#34;)" alt="bobafett" width="60" height="60">';
+    document.getElementById('characterI').innerHTML = '<img src="https://40457712.github.io/assessment/images/darthmaul290X290.jpg" onclick="change(&#34;darthmarl&#34;)" alt="darthmarl" width="60" height="60">';
+}
 
 function start() {
     var el = document.getElementById('main');
