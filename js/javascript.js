@@ -7,8 +7,9 @@ function show() {
  }
 
  function imperial() {
-    alert("You have choosen Imperial Darkside" + '<img src="https://40457712.github.io/assessment/images/bobafett400x397.jpg" alt="User characters" width="50" height="50"></img>')
-}
+    alert("You have choosen Imperial Darkside")
+    document.getElementById('character').innerHTML = '<img src="https://40457712.github.io/assessment/images/bobafett400x397.jpg" alt="User characters" width="50" height="50"></img>';
+ }
 
 function start() {
     alert("Starting soon")
