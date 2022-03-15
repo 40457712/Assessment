@@ -13,9 +13,11 @@ function show() {
  }
 
 function start() {
-    alert("Starting soon")
+    var el = document.getElementById('main');
+    el.style.padding = "20px";
     document.getElementById("main").style.visibility = "visible";
     document.getElementById("settings").style.visibility = "hidden";
+    alert("Starting soon");
 }
 
 function change(swcharacter) {
