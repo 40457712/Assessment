@@ -102,6 +102,10 @@ settings {
  padding:15px;
 }
 
+.item5 img {
+  padding:2px;
+}
+
  .item6 { 
   grid-area: asideR;
   opacity: 0.7;
