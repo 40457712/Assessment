@@ -29,11 +29,9 @@ main {
 
 #buttonstart {
   background-color: #DAD66F;
-  border-radius: 25%;
+  border-radius: 30%;
   color: black;
-  font-size: 2em;
-  height: auto;
-  margin: 20px;
+  font-size: 1.2em;
   padding: 30px;
   text-align: center;
 }
@@ -84,8 +82,10 @@ main {
  }
  
  .item5 { 
+  background-color: white;
   border: 10px #DAD66F solid;
   border-radius: 10px;
+  color: rgb(39 133 171 / 1);
   display: grid;
   grid-area: qana;
   height: 500px;
