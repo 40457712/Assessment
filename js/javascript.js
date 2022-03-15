@@ -17,5 +17,5 @@ function start() {
 }
 
 function change(swcharacter) {
-    alert("You have choosen Imperial Darkside " + swcharacter)
+    alert("You have choosen Imperial Darkside " + swcharacter);
 }
