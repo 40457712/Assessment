@@ -19,8 +19,8 @@ function show() {
 }
 
 function start() {
-    alert("Visiblity of settings" + settings.style.visibility);
     alert("Visiblity of settings" + main.style.visibility);
+    alert("Visiblity of settings" + settings.style.visibility);
 
 }
 
