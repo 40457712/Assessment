@@ -22,8 +22,8 @@ progress::-webkit-progress-bar {
   background-color: red;
 }
 
-#settings #main {
-  font-color: black;
+#settings, #main {
+  color: black;
   font-size: 26px;
   padding: 10px;
 }
