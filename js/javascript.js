@@ -9,7 +9,7 @@ function show() {
  function rebel() {
     document.getElementById('characterI').innerHTML = ""
     document.getElementById('characterR').innerHTML += '<img src="https://40457712.github.io/assessment/images/c3po290X590.jpg" onclick="change(&#34;C3PO&#34;)" alt="c3po" width="60" height="60">';
-    document.getElementById('characterR').innerHTML += '<img src="https://40457712.github.io/assessment/images/chewbacca290X290.jpg" onclick="change(&#34;chewbacca&#34;)" alt="chewbacca" width="60" height="60">';
+    document.getElementById('characterR').innerHTML += '<img src="https://40457712.github.io/assessment/images/chewbacca290X290.png" onclick="change(&#34;chewbacca&#34;)" alt="chewbacca" width="60" height="60">';
 }
 
  function imperial() {
@@ -31,7 +31,7 @@ function change(swcharacter) {
      }
      if( swcharacter === "chewbacca" ) {
         // alert("Welcome " + swcharacter + " to the battle!");
-        document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/chewbacca290X290.jpg" alt="chewbacca" width="290px" height="290px">';
+        document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/chewbacca290X290.png" alt="chewbacca" width="290px" height="290px">';
      }
      if( swcharacter === "bobafett" ) {
         // alert("Welcome " + swcharacter + " to the battle!");
