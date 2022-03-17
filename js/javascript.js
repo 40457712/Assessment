@@ -18,9 +18,11 @@ function show() {
 
 function start() {
    var setup1 = document.getElementById("settings");
-   alert("Visiblity of settings" + setup1.style.visibility);
+   alert("Visiblity of settings is " + setup1.style.visibility);
+   setup1.style.visibility = "hidden";
    var setup2 = document.getElementById("main");
-   alert("Visiblity of settings" + setup2.style.visibility);
+   alert("Visiblity of settings is " + setup2.style.visibility);
+   setup2.style.visibility = "visible";
 }
 
 function change(swcharacter) {
