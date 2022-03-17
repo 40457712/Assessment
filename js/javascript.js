@@ -25,6 +25,10 @@ function start() {
    setup2.style.visibility = "visible";
 }
 
+function next() {
+   alert("Hang on a minute i have not programmed that yet!!!!");
+}
+
 function change(swcharacter) {
     if( swcharacter === "C3PO" ) {
         // alert("Welcome " + swcharacter + " to the battle!");
