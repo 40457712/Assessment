@@ -17,7 +17,9 @@ function show() {
 }
 
 function start() {
-    alert("Quiz Starting soon please check back later");
+    alert("Visiblity of settings" + settings.style.visibility);
+    alert("Visiblity of settings" + main.style.visibility);
+
 }
 
 function change(swcharacter) {
