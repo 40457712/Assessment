@@ -13,7 +13,7 @@ function show() {
 
  function imperial() {
     document.getElementById('characterR').innerHTML = ""
-    document.getElementById('characterI').innerHTML = '<img src="https://40457712.github.io/assessment/images/bobafett400x397.jpg" onclick="change(&#34;bobafett&#34;)" alt="bobafett" width="60" height="60"><img src="https://40457712.github.io/assessment/images/darthmaul290X290.jpg" onclick="change(&#34;darthmarl&#34;)" alt="darthmarl" width="60" height="60">';
+    document.getElementById('characterI').innerHTML = '<img src="https://40457712.github.io/assessment/images/bobafett290X290.png" onclick="change(&#34;bobafett&#34;)" alt="bobafett" width="60" height="60"><img src="https://40457712.github.io/assessment/images/darthmaul290X290.jpg" onclick="change(&#34;darthmarl&#34;)" alt="darthmarl" width="60" height="60">';
 }
 
 function start() {
@@ -33,7 +33,7 @@ function change(swcharacter) {
      }
      if( swcharacter === "bobafett" ) {
         // alert("Welcome " + swcharacter + " to the battle!");
-        document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/bobafett400x397.jpg" alt="bobafett" width="290px" height="290px">';
+        document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/bobafett290X290.png" alt="bobafett" width="290px" height="290px">';
      }
      if( swcharacter === "darthmarl" ) {
         // alert("Welcome " + swcharacter + " to the battle!");
