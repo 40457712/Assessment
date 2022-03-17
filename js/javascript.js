@@ -17,9 +17,10 @@ function show() {
 }
 
 function start() {
-    alert("Visiblity of settings" + main.style.visibility);
-    alert("Visiblity of settings" + settings.style.visibility);
-
+   var setup1 = document.getElementById("settings");
+   alert("Visiblity of settings" + setup1.style.visibility);
+   var setup2 = document.getElementById("main");
+   alert("Visiblity of settings" + setup2.style.visibility);
 }
 
 function change(swcharacter) {
