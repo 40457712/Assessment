@@ -36,7 +36,7 @@ settings {
   border-radius: 30%;
   color: black;
   font-size: 1.2em;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -99,7 +99,7 @@ settings {
  }
 
 .item5 div {
- font-size: 26px;
+ font-size: 30px;
  padding:15px;
 }
 
