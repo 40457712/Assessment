@@ -28,6 +28,11 @@ progress::-webkit-progress-bar {
   padding: 10px;
 }
 
+#main {
+  position: relative;
+  top: -500px;
+}
+
 #buttonstart {
   background-color: #DAD66F;
   border-radius: 30%;
