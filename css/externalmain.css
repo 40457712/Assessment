@@ -22,7 +22,9 @@ progress::-webkit-progress-bar {
   background-color: red;
 }
 
-main {
+#settings #main {
+  font-color: black;
+  font-size: 26px;
   padding: 10px;
 }
 
@@ -92,11 +94,6 @@ main {
   padding:20px;
   width: 300px;
  }
-
-.item5 main {
- font-size: 30px;
- padding:15px;
-}
 
 .item5 img {
   padding:2px;
