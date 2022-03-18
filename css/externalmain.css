@@ -82,6 +82,9 @@ progress::-webkit-progress-bar {
   width: 300px;
 }
 .item4 {
+  background-color: white;
+  border: 10px blue solid;
+  border-radius: 10px;
   grid-area: asideL;
   opacity: 0.7;
   height: 600px;
@@ -106,6 +109,9 @@ progress::-webkit-progress-bar {
 }
 
  .item6 { 
+  background-color: white;
+  border: 10px red solid;
+  border-radius: 10px;
   grid-area: asideR;
   opacity: 0.7;
   height: 600px;
