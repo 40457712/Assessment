@@ -1,4 +1,5 @@
 var swcharacter = "";
+var Qcount = 1;
 
 // update file
 
@@ -26,7 +27,8 @@ function start() {
 }
 
 function next() {
-   alert("Hang on a minute i have not programmed that yet!!!!");
+   Qcount +1 ;
+   alert("Hang on a minute i have not programmed that yet!!!! Question " + Qcount);
 }
 
 function change(swcharacter) {
