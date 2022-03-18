@@ -27,7 +27,7 @@ function start() {
 }
 
 function next() {
-   Qcount =+ 1 ;
+   Qcount += 1 ;
    document.getElementById('labelQA').innerHTML = "Question " + Qcount;
    alert("Hang on a minute i have not programmed that yet!!!! Question " + Qcount);
 }
