@@ -24,6 +24,7 @@ function start() {
    var setup2 = document.getElementById("main");
    // alert("Visiblity of settings is " + setup2.style.visibility);
    setup2.style.visibility = "visible";
+   next();
 }
 
 function next() {
