@@ -28,8 +28,13 @@ function start() {
 
 function next() {
    Qcount += 1 ;
-   document.getElementById('labelQA').innerHTML = "Question " + Qcount;
-   alert("Hang on a minute i have not programmed that yet!!!! Question " + Qcount);
+   if( Qcount === 13 ) {
+      Qcount = 1;
+      alert("Too many questions brain box")
+   } else {
+      document.getElementById('labelQA').innerHTML = "Question " + Qcount;
+      alert("Hang on a minute i have not programmed that yet!!!! Question " + Qcount);
+   }
 }
 
 function change(swcharacter) {
