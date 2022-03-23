@@ -130,7 +130,7 @@ progress::-webkit-progress-bar {
  }
  .item9 { 
   grid-area: graphic;
-  height: 100px;
+  height: 200px;
   width: 900px;
  }
  
@@ -143,7 +143,7 @@ progress::-webkit-progress-bar {
   'scrol scrol scrol'
   'footer footer footer'
   'graphic graphic graphic';
-  
+
   text-align: center;
   justify-content: center;
   }
