@@ -128,7 +128,12 @@ progress::-webkit-progress-bar {
   height: 300px;
   width: 900px;
  }
-  
+ .item9 { 
+  grid-area: graphic;
+  height: 100px;
+  width: 900px;
+ }
+ 
 .grid-container {
   align-items: center; 
   display: grid;
@@ -136,7 +141,9 @@ progress::-webkit-progress-bar {
   'user header timer'
   'asideL qana asideR'
   'scrol scrol scrol'
-  'footer footer footer';
+  'footer footer footer'
+  'graphic graphic graphic';
+  
   text-align: center;
   justify-content: center;
   }
