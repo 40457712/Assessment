@@ -130,6 +130,7 @@ progress::-webkit-progress-bar {
  }
  .item9 { 
   grid-area: graphic;
+  opacity: 0.6;
   height: 200px;
   width: 900px;
  }
