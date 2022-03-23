@@ -38,6 +38,8 @@ function next() {
    }
 }
 
+// Look at changing this to switch statement
+
 function change(swcharacter) {
     if( swcharacter === "C3PO" ) {
         // alert("Welcome " + swcharacter + " to the battle!");
