@@ -148,3 +148,23 @@ progress::-webkit-progress-bar {
   text-align: center;
   justify-content: center;
   }
+
+  .flying {
+    animation: flying 42s linear 10s 1;
+    -o-animation: flying 42s linear 10s 1;
+    -moz-animation: flying 42s linear 10s 1;
+    -webkit-animation: flying 42s linear 10s 1;
+    /* move 42s infinite;*/
+    position: relative;
+  }
+
+  @keyframes flying {
+    0% {
+      transform: translateX(800px);
+      left:800px;
+      }
+      100% {
+      transform: translateX(-800px);
+      left:-800px;
+      }
+  }
