@@ -49,11 +49,11 @@ function next() {
       Qcount = 1;
       alert("Too many questions brain box")
    } else {
-      document.getElementById("Question").innerHTML = "Question " + i + ": " + quiz[Qcount][2];
-      document.getElementById("AnswerA").innerHTML = "A: " + quiz[Qcount][4];
-      document.getElementById("AnswerB").innerHTML = "B: " + quiz[Qcount][5];
-      document.getElementById("AnswerC").innerHTML = "C: " + quiz[Qcount][6];
-      document.getElementById("AnswerD").innerHTML = "D: " + quiz[Qcount][7];
+      document.getElementById("question").innerHTML = "Question " + Qcount + ": " + quiz[Qcount][2];
+      document.getElementById("answerA").innerHTML = "A: " + quiz[Qcount][4];
+      document.getElementById("answerB").innerHTML = "B: " + quiz[Qcount][5];
+      document.getElementById("answerC").innerHTML = "C: " + quiz[Qcount][6];
+      document.getElementById("answerD").innerHTML = "D: " + quiz[Qcount][7];
       //document.getElementById('labelQA').innerHTML = "Question " + Qcount;
       //alert("Hang on a minute i have not programmed that yet!!!! Question " + Qcount);
    }
