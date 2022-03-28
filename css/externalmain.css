@@ -129,9 +129,10 @@ progress::-webkit-progress-bar {
   width: 900px;
  }
  .item9 { 
+  height: 200px;
   grid-area: graphic;
   opacity: 0.6;
-  height: 200px;
+  left:-600px;
   width: 900px;
  }
  
@@ -161,10 +162,10 @@ progress::-webkit-progress-bar {
   @keyframes flying {
     0% {
       transform: translateX(800px);
-      left:800px;
+      left:600px;
       }
       100% {
       transform: translateX(-800px);
-      left:-800px;
+      left:-600px;
       }
   }
