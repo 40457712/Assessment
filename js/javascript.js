@@ -1,5 +1,5 @@
 var swcharacter = "";
-var Qcount = 1;
+var Qcount = 0;
 
 const quiz = [];
 const starwars = [
