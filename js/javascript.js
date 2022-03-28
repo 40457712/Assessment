@@ -1,6 +1,8 @@
 var swcharacter = "";
 var Qcount = 0;
 
+// Create random quiz questions
+
 const quiz = [];
 const starwars = [
   [1 , "C", "Who is this evil character?", "B", "Darth Maul", "Darth Vader" , "Darth Mother", "Darth Laser"],
