@@ -1,6 +1,22 @@
 var swcharacter = "";
 var Qcount = 1;
 
+const quiz = [];
+const starwars = [
+  [1 , "C", "Who is this evil character?", "B", "Darth Maul", "Darth Vader" , "Darth Mother", "Darth Laser"],
+  [2, "E", "What is this large spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"],
+  [3, "P", "What is this red planet called?", "A", "Mars", "Darth Vader" , "Darth Mother", "Darth Laser"],
+  [4, "C", "Who is this nice character?", "D", "Darth Maul", "Darth Vader" , "Darth Mother", "Hans Solo"],
+  [5, "E", "What is this evil spaceship?", "A", "Death Star", "Darth Vader" , "Darth Mother", "Darth Laser"],
+  [6, "P", "What is this planet called?", "B", "Darth Maul", "Endor" , "Darth Mother", "Darth Laser"]];
+
+for (i = 5; i > 0; i --)
+{
+random = Math.floor(Math.random() * (i + 1));
+quiz.push(starwars[random]);
+starwars.splice(random , 1);
+}
+
 // update file
 
 function show() {
@@ -33,8 +49,13 @@ function next() {
       Qcount = 1;
       alert("Too many questions brain box")
    } else {
-      document.getElementById('labelQA').innerHTML = "Question " + Qcount;
-      alert("Hang on a minute i have not programmed that yet!!!! Question " + Qcount);
+      document.getElementById("Question").innerHTML = "Question " + i + ": " + quiz[Qcount][2];
+      document.getElementById("AnswerA").innerHTML = "A: " + quiz[Qcount][4];
+      document.getElementById("AnswerB").innerHTML = "B: " + quiz[Qcount][5];
+      document.getElementById("AnswerC").innerHTML = "C: " + quiz[Qcount][6];
+      document.getElementById("AnswerD").innerHTML = "D: " + quiz[Qcount][7];
+      //document.getElementById('labelQA').innerHTML = "Question " + Qcount;
+      //alert("Hang on a minute i have not programmed that yet!!!! Question " + Qcount);
    }
 }
 
