@@ -53,6 +53,7 @@ function start() {
 }
 
 function next() {
+   alert("Qcount " + Qcount);
    if( Qcount == 10 ) {
       Qcount = 0;
       document.getElementById("buttonnext").innerHTML = '<button  id="buttonstart" onclick="results()">RESULTS</button>';
