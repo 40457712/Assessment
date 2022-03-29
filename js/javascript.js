@@ -64,13 +64,13 @@ function next() {
             // alert("You got the correct answer!");
          }
       }
-      if(ansr.checked = false){
-         alert("You need to click an answer");
-         Qcount -= 1;
-      }
+      // if(ansr.checked = false){
+      //   alert("You need to click an answer");
+      //   Qcount -= 1;
+      //}
    }
 
-   if(Qcount == 11) {
+   if(Qcount == 10) {
       document.getElementById("buttonnext").innerHTML = '<button  id="buttonstart" onclick="results()">RESULTS</button>';
    }else{
    document.getElementById("question").innerHTML = "Question " + (Qcount + 1) + ": " + quiz[(Qcount)][2];
