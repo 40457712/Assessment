@@ -10,9 +10,14 @@ const starwars = [
   [3, "P", "What is this red planet called?", "A", "Mars", "Darth Vader" , "Darth Mother", "Darth Laser"],
   [4, "C", "Who is this nice character?", "D", "Darth Maul", "Darth Vader" , "Darth Mother", "Hans Solo"],
   [5, "E", "What is this evil spaceship?", "A", "Death Star", "Darth Vader" , "Darth Mother", "Darth Laser"],
-  [6, "P", "What is this planet called?", "B", "Darth Maul", "Endor" , "Darth Mother", "Darth Laser"]];
+  [6, "P", "What is this planet called?", "B", "Darth Maul", "Endor" , "Darth Mother", "Darth Laser"],
+  [7, "E", "What is this big spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"],
+  [8, "E", "What is this massive spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"],
+  [9, "E", "What is this small spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"],
+  [10, "E", "What is this round spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"],
+  [11, "E", "What is this black spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"]];
 
-for (i = 5; i > 0; i --)
+for (i = 9; i > 0; i --)
 {
 random = Math.floor(Math.random() * (i + 1));
 quiz.push(starwars[random]);
@@ -46,12 +51,11 @@ function start() {
 }
 
 function next() {
-   Qcount += 1 ;
    if( Qcount === 13 ) {
       Qcount = 1;
       alert("Too many questions brain box")
    } else {
-      document.getElementById("question").innerHTML = "Question " + Qcount + ": " + quiz[Qcount][2];
+      document.getElementById("question").innerHTML = "Question " + (Qcount + 1) + ": " + quiz[Qcount][2];
       document.getElementById("answerA").innerHTML = "A: " + quiz[Qcount][4];
       document.getElementById("answerB").innerHTML = "B: " + quiz[Qcount][5];
       document.getElementById("answerC").innerHTML = "C: " + quiz[Qcount][6];
@@ -59,6 +63,7 @@ function next() {
       //document.getElementById('labelQA').innerHTML = "Question " + Qcount;
       //alert("Hang on a minute i have not programmed that yet!!!! Question " + Qcount);
    }
+   Qcount += 1 ;
 }
 
 // Look at changing this to switch statement
