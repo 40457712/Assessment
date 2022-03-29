@@ -56,11 +56,11 @@ function next() {
    var ansr = document.getElementsByName('answer');   
             for(i = 0; i < ansr.length; i++) {
                 if(ansr[i].checked)
-                alert("You Answered: " + ansr[i].value + " - Correct Answer: " + quiz[Qcount][3]);
+                  alert("You Answered: " + ansr[i].value + " - Correct Answer: " + quiz[Qcount][3]);
                   if(ansr[i].value == quiz[Qcount][3])
-                  alert("You got the correct answer!");
+                   alert("You got the correct answer!");
             }
-   if( Qcount === 10 ) {
+   if( Qcount == 10 ) {
       Qcount = 0;
       document.getElementById("buttonnext").innerHTML = '<button  id="buttonstart" onclick="results()">RESULTS</button>';
    } else {
@@ -71,8 +71,8 @@ function next() {
       document.getElementById("answerD").innerHTML = '<input type="radio" name="answer" value="D">' + "D: " + quiz[Qcount][7];
       //document.getElementById('labelQA').innerHTML = "Question " + Qcount;
       //alert("Hang on a minute i have not programmed that yet!!!! Question " + Qcount);
+      Qcount += 1 ;
    }
-   Qcount += 1 ;
 }
 
 function results() {
