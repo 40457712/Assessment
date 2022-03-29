@@ -56,7 +56,7 @@ function next() {
    if( Qcount === 10 ) {
       Qcount = 0;
       alert("Too many questions brain box");
-      document.getElementById("buttonnext").innerHTML = '<button  id="buttonstart" onclick="result()">RESULTS</button>';
+      document.getElementById("buttonnext").innerHTML = '<button  id="buttonstart" onclick="results()">RESULTS</button>';
    } else {
       document.getElementById("question").innerHTML = "Question " + (Qcount + 1) + ": " + quiz[Qcount][2];
       document.getElementById("answerA").innerHTML = '<input type="radio" name="answer" value="A">' + "A: " + quiz[Qcount][4];
