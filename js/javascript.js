@@ -56,7 +56,9 @@ function next() {
    var ansr = document.getElementsByName('answer');   
             for(i = 0; i < ansr.length; i++) {
                 if(ansr[i].checked)
-                alert("You Answered: " + ansr[i].value + "Correct Answer" + quiz[Qcount][3]);
+                alert("You Answered: " + ansr[i].value + " - Correct Answer: " + quiz[Qcount][3]);
+                  if(ansr[i].value == quiz[Qcount][3])
+                  alert("You got the correct answer!");
             }
    if( Qcount === 10 ) {
       Qcount = 0;
