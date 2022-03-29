@@ -51,8 +51,8 @@ function start() {
 }
 
 function next() {
-   if( Qcount === 13 ) {
-      Qcount = 1;
+   if( Qcount === 9 ) {
+      Qcount = 0;
       alert("Too many questions brain box")
    } else {
       document.getElementById("question").innerHTML = "Question " + (Qcount + 1) + ": " + quiz[Qcount][2];
