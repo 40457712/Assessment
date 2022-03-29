@@ -19,7 +19,7 @@ const starwars = [
   [12, "E", "What is this black spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"]
 ];
 
-for (i = 9; i > 0; i --)
+for (i = 10; i > 0; i --)
 {
 random = Math.floor(Math.random() * (i + 1));
 quiz.push(starwars[random]);
