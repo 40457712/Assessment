@@ -15,7 +15,9 @@ const starwars = [
   [8, "E", "What is this massive spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"],
   [9, "E", "What is this small spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"],
   [10, "E", "What is this round spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"],
-  [11, "E", "What is this black spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"]];
+  [11, "E", "What is this black spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"],
+  [12, "E", "What is this black spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"]
+];
 
 for (i = 9; i > 0; i --)
 {
@@ -51,9 +53,10 @@ function start() {
 }
 
 function next() {
-   if( Qcount === 9 ) {
+   if( Qcount === 10 ) {
       Qcount = 0;
-      alert("Too many questions brain box")
+      alert("Too many questions brain box");
+      document.getElementById("buttonnext").innerHTML = '<button  id="buttonstart" onclick="result()">RESULTS</button>';
    } else {
       document.getElementById("question").innerHTML = "Question " + (Qcount + 1) + ": " + quiz[Qcount][2];
       document.getElementById("answerA").innerHTML = '<input type="radio" name="answer" value="A">' + "A: " + quiz[Qcount][4];
@@ -64,6 +67,10 @@ function next() {
       //alert("Hang on a minute i have not programmed that yet!!!! Question " + Qcount);
    }
    Qcount += 1 ;
+}
+
+function results() {
+   alert("Not done the results yet!");
 }
 
 // Look at changing this to switch statement
