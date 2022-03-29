@@ -24,6 +24,7 @@ for (i = 10; i > 0; i --)
 random = Math.floor(Math.random() * (i + 1));
 quiz.push(starwars[random]);
 starwars.splice(random , 1);
+console.log(quiz);
 }
 
 // update file
@@ -58,20 +59,22 @@ function next() {
    if(Qcount > 1) {
    var ansr = document.getElementsByName('answer');   
       for(i = 0; i < ansr.length; i++) {
-         if(ansr[i].checked)
-            alert("You Answered: " + ansr[i].value + " - Correct Answer: " + quiz[Qcount - 1][3] + "Q" + Qcount);
+         if(ansr[i].checked){
+            alert("You Answered: " + ansr[i].value + " - Correct Answer: " + quiz[(Qcount - 1)][3] + "Q" + (Qcount - 1));
             // if(ansr[i].value == quiz[Qcount][3])
             // alert("You got the correct answer!");
+         }
       }
-   }1
+   }
+   
    if(Qcount == 10) {
       document.getElementById("buttonnext").innerHTML = '<button  id="buttonstart" onclick="results()">RESULTS</button>';
    }else{
-   document.getElementById("question").innerHTML = "Question " + Qcount + ": " + quiz[Qcount - 1][2];
-   document.getElementById("answerA").innerHTML = '<input type="radio" name="answer" value="A">' + "A: " + quiz[Qcount - 1][4];
-   document.getElementById("answerB").innerHTML = '<input type="radio" name="answer" value="B">' + "B: " + quiz[Qcount - 1][5];
-   document.getElementById("answerC").innerHTML = '<input type="radio" name="answer" value="C">' + "C: " + quiz[Qcount - 1][6];
-   document.getElementById("answerD").innerHTML = '<input type="radio" name="answer" value="D">' + "D: " + quiz[Qcount - 1][7];
+   document.getElementById("question").innerHTML = "Question " + Qcount + ": " + quiz[(Qcount - 1)][2];
+   document.getElementById("answerA").innerHTML = '<input type="radio" name="answer" value="A">' + "A: " + quiz[(Qcount - 1)][4];
+   document.getElementById("answerB").innerHTML = '<input type="radio" name="answer" value="B">' + "B: " + quiz[(Qcount - 1)][5];
+   document.getElementById("answerC").innerHTML = '<input type="radio" name="answer" value="C">' + "C: " + quiz[(Qcount - 1)][6];
+   document.getElementById("answerD").innerHTML = '<input type="radio" name="answer" value="D">' + "D: " + quiz[(Qcount - 1)][7];
    //document.getElementById('labelQA').innerHTML = "Question " + Qcount;
    //alert("Hang on a minute i have not programmed that yet!!!! Question " + Qcount); 
    alert("Qcount " + Qcount);
