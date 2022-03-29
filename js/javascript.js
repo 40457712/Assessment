@@ -56,7 +56,7 @@ function next() {
       alert("Too many questions brain box")
    } else {
       document.getElementById("question").innerHTML = "Question " + (Qcount + 1) + ": " + quiz[Qcount][2];
-      document.getElementById("answerA").innerHTML = "A: " + quiz[Qcount][4];
+      document.getElementById("answerA").innerHTML = '<input type="radio" name="answer" value="A">' + "A: " + quiz[Qcount][4];
       document.getElementById("answerB").innerHTML = "B: " + quiz[Qcount][5];
       document.getElementById("answerC").innerHTML = "C: " + quiz[Qcount][6];
       document.getElementById("answerD").innerHTML = "D: " + quiz[Qcount][7];
