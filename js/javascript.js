@@ -60,9 +60,9 @@ function next() {
    } else {
       document.getElementById("question").innerHTML = "Question " + (Qcount + 1) + ": " + quiz[Qcount][2];
       document.getElementById("answerA").innerHTML = '<input type="radio" name="answer" value="A">' + "A: " + quiz[Qcount][4];
-      document.getElementById("answerB").innerHTML = "B: " + quiz[Qcount][5];
-      document.getElementById("answerC").innerHTML = "C: " + quiz[Qcount][6];
-      document.getElementById("answerD").innerHTML = "D: " + quiz[Qcount][7];
+      document.getElementById("answerB").innerHTML = '<input type="radio" name="answer" value="B">' + "B: " + quiz[Qcount][5];
+      document.getElementById("answerC").innerHTML = '<input type="radio" name="answer" value="C">' + "C: " + quiz[Qcount][6];
+      document.getElementById("answerD").innerHTML = '<input type="radio" name="answer" value="D">' + "D: " + quiz[Qcount][7];
       //document.getElementById('labelQA').innerHTML = "Question " + Qcount;
       //alert("Hang on a minute i have not programmed that yet!!!! Question " + Qcount);
    }
