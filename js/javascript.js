@@ -62,6 +62,9 @@ function next() {
             alert(quiz[(Qcount - 2)][2] + "You Answered: " + ansr[i].value + " - Correct Answer: " + quiz[(Qcount - 2)][3] + "Q" + (Qcount - 2));
             // if(ansr[i].value == quiz[Qcount][3])
             // alert("You got the correct answer!");
+         }else{
+            alert("You need to click an answer");
+            Qcount -= 1;
          }
       }
    }
