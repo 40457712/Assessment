@@ -64,7 +64,7 @@ function next() {
                   // if(ansr[i].value == quiz[Qcount][3])
                   // alert("You got the correct answer!");
       }
-      document.getElementById("question").innerHTML = "Question " + (Qcount + 1) + ": " + quiz[Qcount][2];
+      document.getElementById("question").innerHTML = "Question " + Qcount + ": " + quiz[Qcount][2];
       document.getElementById("answerA").innerHTML = '<input type="radio" name="answer" value="A">' + "A: " + quiz[Qcount][4];
       document.getElementById("answerB").innerHTML = '<input type="radio" name="answer" value="B">' + "B: " + quiz[Qcount][5];
       document.getElementById("answerC").innerHTML = '<input type="radio" name="answer" value="C">' + "C: " + quiz[Qcount][6];
