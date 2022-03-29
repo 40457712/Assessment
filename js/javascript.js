@@ -64,7 +64,7 @@ function next() {
             // alert("You got the correct answer!");
          }
       }
-      if(ansr.checked = false;){
+      if(ansr.checked = false){
          alert("You need to click an answer");
          Qcount -= 1;
       }
