@@ -54,12 +54,12 @@ function start() {
 
 function next() {
    
-   alert("Qcount " + Qcount);
-   if(Qcount > 1) {
+   //alert("Qcount " + Qcount);
+   if(Qcount => 1) {
    var ansr = document.getElementsByName('answer');   
       for(i = 0; i < ansr.length; i++) {
          if(ansr[i].checked){
-            alert(quiz[(Qcount - 2)][2] + "You Answered: " + ansr[i].value + " - Correct Answer: " + quiz[(Qcount - 2)][3] + "Q" + (Qcount - 2));
+            alert(quiz[(Qcount - 1)][2] + "You Answered: " + ansr[i].value + " - Correct Answer: " + quiz[(Qcount - 1)][3] + "Q" + (Qcount - 1));
             // if(ansr[i].value == quiz[Qcount][3])
             // alert("You got the correct answer!");
          }else{
@@ -80,7 +80,7 @@ function next() {
    //document.getElementById('labelQA').innerHTML = "Question " + Qcount;
    //alert("Hang on a minute i have not programmed that yet!!!! Question " + Qcount);
    Qcount += 1; 
-   alert("Qcount " + Qcount);
+   //alert("Qcount " + Qcount);
    }
 }
 
