@@ -24,9 +24,8 @@ for (i = 10; i > 0; i --)
 random = Math.floor(Math.random() * (i + 1));
 quiz.push(starwars[random]);
 starwars.splice(random , 1);
-console.log(quiz[i]);
 }
-
+console.log(quiz);
 // update file
 
 function show() {
@@ -67,7 +66,7 @@ function next() {
       }
    }
 
-   if(Qcount == 10) {
+   if(Qcount == 11) {
       document.getElementById("buttonnext").innerHTML = '<button  id="buttonstart" onclick="results()">RESULTS</button>';
    }else{
    document.getElementById("question").innerHTML = "Question " + Qcount + ": " + quiz[(Qcount - 1)][2];
