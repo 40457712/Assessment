@@ -30,7 +30,11 @@ progress::-webkit-progress-bar {
 
 #main {
   position: relative;
-  top: -400px;
+  top: -420px;
+}
+
+#question, #answerA, #answerB, #answerC, #answerD, #buttonnext {
+ padding: 8px;
 }
 
 #buttonstart {
