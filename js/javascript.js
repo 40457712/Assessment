@@ -53,17 +53,17 @@ function start() {
 }
 
 function next() {
-   var ansr = document.getElementsByName('answer');   
-            for(i = 0; i < ansr.length; i++) {
-                if(ansr[i].checked)
-                  alert("You Answered: " + ansr[i].value + " - Correct Answer: " + quiz[Qcount][3]);
-                  if(ansr[i].value == quiz[Qcount][3])
-                   alert("You got the correct answer!");
-            }
    if( Qcount == 10 ) {
       Qcount = 0;
       document.getElementById("buttonnext").innerHTML = '<button  id="buttonstart" onclick="results()">RESULTS</button>';
    } else {
+      var ansr = document.getElementsByName('answer');   
+            for(i = 0; i < ansr.length; i++) {
+                if(ansr[i].checked)
+                  alert("You Answered: " + type(ansr[i].value) + " - Correct Answer: " + type(quiz[Qcount][3]));
+                  // if(ansr[i].value == quiz[Qcount][3])
+                  // alert("You got the correct answer!");
+      }
       document.getElementById("question").innerHTML = "Question " + (Qcount + 1) + ": " + quiz[Qcount][2];
       document.getElementById("answerA").innerHTML = '<input type="radio" name="answer" value="A">' + "A: " + quiz[Qcount][4];
       document.getElementById("answerB").innerHTML = '<input type="radio" name="answer" value="B">' + "B: " + quiz[Qcount][5];
