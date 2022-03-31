@@ -53,7 +53,7 @@ function start() {
 }
 
 function next() {
-   
+   var unclecked = 0;
    //alert("Qcount " + Qcount);
    if(Qcount => 1) {
    var ansr = document.getElementsByName('answer');   
@@ -63,9 +63,13 @@ function next() {
             // if(ansr[i].value == quiz[Qcount][3])
             // alert("You got the correct answer!");
          }else{
-            alert("You need to click an answer");
-            Qcount -= 1;
+            unchecked += 1;
          }
+      }
+      
+      if (unchecked == 4){
+         alert("You need to click an answer");
+         Qcount -= 1;
       }
       // if(ansr.checked = false){
       //   alert("You need to click an answer");
