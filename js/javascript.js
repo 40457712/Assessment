@@ -6,10 +6,10 @@ var Qcount = 0;
 const quiz = [];
 const starwars = [
   [1 , "C", "Who is this golden droid character?", "C", "R2D2", "BB-8" , "C-3PO", "IG-88"],
-  [2, "E", "What is this planet called?", "B", "Naboo", "Coruscant" , "Alderaan", "Tatooine"],
-  [3, "P", "Who is this Supreme Commander?", "D", "Darth Sidious", "Sumpreme Leader Snoke" , "Darth Yoda", "General Grievous"],
-  [4, "C", "Who is this nice character?", "D", "Darth Maul", "Darth Vader" , "Darth Mother", "Hans Solo"],
-  [5, "E", "What is this evil spaceship?", "A", "Death Star", "Darth Vader" , "Darth Mother", "Darth Laser"],
+  [2, "P", "What is this planet called?", "B", "Naboo", "Coruscant" , "Alderaan", "Tatooine"],
+  [3, "C", "Who is this Supreme Commander?", "D", "Darth Sidious", "Sumpreme Leader Snoke" , "Darth Yoda", "General Grievous"],
+  [4, "E", "What is the name of this spaceship", "D", "Soulless One", "The Ninka" , "Republic Crusier", "Millennium Falcon"],
+  [5, "C", "Who is this Rebel Leader?", "D", "Lando Calrissian", "Finn" , "Luke Skywalker", "Han Solo"],
   [6, "P", "What is this planet called?", "B", "Darth Maul", "Endor" , "Darth Mother", "Darth Laser"],
   [7, "E", "What is this big spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"],
   [8, "E", "What is this massive spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"],
@@ -21,7 +21,7 @@ const starwars = [
 
 for (i = 10; i > 0; i --)
 {
-random = Math.floor(Math.random() * (i + 1));
+random = Math.floor(Math.random() * (starwars.length));
 quiz.push(starwars[random]);
 starwars.splice(random , 1);
 }
