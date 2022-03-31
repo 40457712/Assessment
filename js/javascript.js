@@ -61,9 +61,11 @@ function next() {
    var ansr = document.getElementsByName('answer');   
       for(i = 0; i < ansr.length; i++) {
          if(ansr[i].checked){
-            alert(quiz[(Qcount - 1)][2] + "You Answered: " + ansr[i].value + " - Correct Answer: " + quiz[(Qcount - 1)][3] + "Q" + (Qcount - 1));
-            // if(ansr[i].value == quiz[Qcount][3])
-            // alert("You got the correct answer!");
+            // alert(quiz[(Qcount - 1)][2] + "You Answered: " + ansr[i].value + " - Correct Answer: " + quiz[(Qcount - 1)][3] + "Q" + (Qcount - 1));
+            if(ansr[i].value == quiz[Qcount - 1][3]){
+               z = document.getElementById('force').innerHTML;
+               alert("You got the correct answer! " + z);
+            }
          }else{
             unchecked += 1;
          }
