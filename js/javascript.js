@@ -53,7 +53,7 @@ function start() {
 }
 
 function next() {
-   var unclecked = 0;
+   var unchecked = 0;
    //alert("Qcount " + Qcount);
    if(Qcount => 1) {
    var ansr = document.getElementsByName('answer');   
