@@ -78,6 +78,11 @@ function next() {
    }
 
    if(Qcount == 10) {
+      document.getElementById("question").innerHTML = "Click the result button to see how you did in the battle";
+      document.getElementById("answerA").innerHTML = "";
+      document.getElementById("answerB").innerHTML = "";
+      document.getElementById("answerC").innerHTML = "";
+      document.getElementById("answerD").innerHTML = "";  
       document.getElementById("buttonnext").innerHTML = '<button  id="buttonstart" onclick="results()">RESULTS</button>';
    }else{
    document.getElementById("question").innerHTML = "Question " + (Qcount + 1) + ": " + quiz[(Qcount)][2];
