@@ -65,6 +65,18 @@ function next() {
             if(ansr[i].value == quiz[Qcount - 1][3]){
                z = document.getElementById('force').innerHTML;
                alert("You got the correct answer! " + z);
+               if (z == "Rebel"){
+                  myFunctionAdd(5);
+               }else{
+                  myFunctionMinus(5);
+               }
+            }else{
+               alert("You got the wrong answer! " + z);
+               if (z == "Rebel"){
+                  myFunctionMinus(5);
+               }else{
+                  myFunctionAdd(5);
+               }
             }
          }else{
             unchecked += 1;
