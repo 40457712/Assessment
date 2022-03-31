@@ -5,9 +5,9 @@ var Qcount = 0;
 
 const quiz = [];
 const starwars = [
-  [1 , "C", "Who is this golden droid?", "C", "R2D2", "BB-8" , "C-3PO", "IG-88"],
-  [2, "E", "What is this large spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"],
-  [3, "P", "What is this red planet called?", "A", "Mars", "Darth Vader" , "Darth Mother", "Darth Laser"],
+  [1 , "C", "Who is this golden droid character?", "C", "R2D2", "BB-8" , "C-3PO", "IG-88"],
+  [2, "E", "What is this planet called?", "B", "Naboo", "Coruscant" , "Alderaan", "Tatooine"],
+  [3, "P", "Who is this Supreme Commander?", "D", "Darth Sidious", "Sumpreme Leader Snoke" , "Darth Yoda", "General Grievous"],
   [4, "C", "Who is this nice character?", "D", "Darth Maul", "Darth Vader" , "Darth Mother", "Hans Solo"],
   [5, "E", "What is this evil spaceship?", "A", "Death Star", "Darth Vader" , "Darth Mother", "Darth Laser"],
   [6, "P", "What is this planet called?", "B", "Darth Maul", "Endor" , "Darth Mother", "Darth Laser"],
