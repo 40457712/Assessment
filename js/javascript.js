@@ -5,7 +5,7 @@ var Qcount = 0;
 
 const quiz = [];
 const starwars = [
-  [1 , "C", "Who is this evil character?", "B", "Darth Maul", "Darth Vader" , "Darth Mother", "Darth Laser"],
+  [1 , "C", "Who is this golden droid?", "C", "R2D2", "BB-8" , "C-3PO", "IG-88"],
   [2, "E", "What is this large spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"],
   [3, "P", "What is this red planet called?", "A", "Mars", "Darth Vader" , "Darth Mother", "Darth Laser"],
   [4, "C", "Who is this nice character?", "D", "Darth Maul", "Darth Vader" , "Darth Mother", "Hans Solo"],
@@ -101,11 +101,12 @@ function next() {
       document.getElementById("answerD").innerHTML = "";  
       document.getElementById("buttonnext").innerHTML = '<button  id="buttonstart" onclick="results()">RESULTS</button>';
    }else{
-   document.getElementById("question").innerHTML = "Question " + (Qcount + 1) + ": " + quiz[(Qcount)][2];
-   document.getElementById("answerA").innerHTML = '<input type="radio" name="answer" value="A">' + "A: " + quiz[(Qcount)][4];
-   document.getElementById("answerB").innerHTML = '<input type="radio" name="answer" value="B">' + "B: " + quiz[(Qcount)][5];
-   document.getElementById("answerC").innerHTML = '<input type="radio" name="answer" value="C">' + "C: " + quiz[(Qcount)][6];
-   document.getElementById("answerD").innerHTML = '<input type="radio" name="answer" value="D">' + "D: " + quiz[(Qcount)][7];
+      document.getElementById("picture").innerHTML = '<img src="https://40457712.github.io/assessment/images/' + quiz[(Qcount)][0] + 'jpg" alt="' + quiz[(Qcount)][2] + '" width="60%" height="60%">';
+      document.getElementById("question").innerHTML = "Question " + (Qcount + 1) + ": " + quiz[(Qcount)][2];
+      document.getElementById("answerA").innerHTML = '<input type="radio" name="answer" value="A">' + "A: " + quiz[(Qcount)][4];
+      document.getElementById("answerB").innerHTML = '<input type="radio" name="answer" value="B">' + "B: " + quiz[(Qcount)][5];
+      document.getElementById("answerC").innerHTML = '<input type="radio" name="answer" value="C">' + "C: " + quiz[(Qcount)][6];
+      document.getElementById("answerD").innerHTML = '<input type="radio" name="answer" value="D">' + "D: " + quiz[(Qcount)][7];
    //document.getElementById('labelQA').innerHTML = "Question " + Qcount;
    //alert("Hang on a minute i have not programmed that yet!!!! Question " + Qcount);
    Qcount += 1; 
