@@ -56,6 +56,7 @@ function start() {
 
 function next() {
    var unchecked = 0;
+   var z = "";
    //alert("Qcount " + Qcount);
    if(Qcount => 1) {
    var ansr = document.getElementsByName('answer');   
