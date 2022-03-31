@@ -64,14 +64,14 @@ function next() {
             // alert(quiz[(Qcount - 1)][2] + "You Answered: " + ansr[i].value + " - Correct Answer: " + quiz[(Qcount - 1)][3] + "Q" + (Qcount - 1));
             if(ansr[i].value == quiz[Qcount - 1][3]){
                z = document.getElementById('force').innerHTML;
-               alert("You got the correct answer! " + z);
+               // alert("You got the correct answer! " + z);
                if (z == "Rebel"){
                   myFunctionAdd(5);
                }else{
                   myFunctionMinus(5);
                }
             }else{
-               alert("You got the wrong answer! " + z);
+               //alert("You got the wrong answer! " + z);
                if (z == "Rebel"){
                   myFunctionMinus(5);
                }else{
@@ -101,7 +101,7 @@ function next() {
       document.getElementById("answerD").innerHTML = "";  
       document.getElementById("buttonnext").innerHTML = '<button  id="buttonstart" onclick="results()">RESULTS</button>';
    }else{
-      document.getElementById("picture").innerHTML = '<img src="https://40457712.github.io/assessment/images/' + quiz[(Qcount)][0] + 'jpg" alt="' + quiz[(Qcount)][2] + '" width="60%" height="60%">';
+      document.getElementById("picture").innerHTML = '<img src="https://40457712.github.io/assessment/images/' + quiz[(Qcount)][0] + '.jpg" alt="' + quiz[(Qcount)][2] + '" width="60%" height="60%">';
       document.getElementById("question").innerHTML = "Question " + (Qcount + 1) + ": " + quiz[(Qcount)][2];
       document.getElementById("answerA").innerHTML = '<input type="radio" name="answer" value="A">' + "A: " + quiz[(Qcount)][4];
       document.getElementById("answerB").innerHTML = '<input type="radio" name="answer" value="B">' + "B: " + quiz[(Qcount)][5];
