@@ -67,7 +67,7 @@ main div {
   grid-area: header;
   height: 300px;
   padding-left: 12%;
-  width: 300px;
+  width: 400px;
 }
 .item2 h1{
   background-color: black;
@@ -83,7 +83,7 @@ main div {
 .item3 { 
   grid-area: timer;
   height: 300px;
-  width: 300px;
+  width: 400px;
 }
 .item4 {
   background-color: white;
