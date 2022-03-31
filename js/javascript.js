@@ -100,7 +100,7 @@ function next() {
       document.getElementById("answerB").innerHTML = "";
       document.getElementById("answerC").innerHTML = "";
       document.getElementById("answerD").innerHTML = "";  
-      document.getElementById("buttonnext").innerHTML = '<button  id="buttonstart" onclick="results()">RESULTS</button>';
+      document.getElementById("buttonnext").innerHTML = '<button  id="buttonstart" onclick="results()">RESULTS</button><button  id="buttonreplay" onclick="replay()">REPLAY</button>';
    }else{
       document.getElementById("question").innerHTML = "Question " + (Qcount + 1) + ": " + quiz[(Qcount)][2];
       document.getElementById("picture").innerHTML = '<img src="https://40457712.github.io/assessment/images/' + quiz[(Qcount)][0] + '.jpg" alt="' + quiz[(Qcount)][2] + '" width = "90%">';
@@ -119,6 +119,9 @@ function results() {
    alert("Not done the results yet!");
 }
 
+function replay() {
+   document.location.reload(true);
+}
 // Look at changing this to switch statement
 
 function change(swcharacter) {
