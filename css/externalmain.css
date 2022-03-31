@@ -58,7 +58,7 @@ main div {
   grid-area: user;
   height: 300px;
   opacity: 0.7;
-  width: 400px;
+  width: 300px;
 }
 .item1 img {
   transform: scaleX(-1);
@@ -83,7 +83,7 @@ main div {
 .item3 { 
   grid-area: timer;
   height: 300px;
-  width: 400px;
+  width: 300px;
 }
 .item4 {
   background-color: white;
@@ -91,8 +91,8 @@ main div {
   border-radius: 10px;
   grid-area: asideL;
   opacity: 0.7;
-  height: 600px;
-  width: 400px;
+  height: 700px;
+  width: 300px;
  }
  
  .item5 { 
@@ -118,26 +118,26 @@ main div {
   border-radius: 10px;
   grid-area: asideR;
   opacity: 0.7;
-  height: 600px;
-  width: 400px;
+  height: 700px;
+  width: 300px;
  }
 .item7 { 
   grid-area: scrol;
   height: 120px;
-  width: 1200px;
+  width: 900px;
  }
 .item8 { 
   grid-area: footer;
   opacity: 0.7;
   height: 300px;
-  width: 1200px;
+  width: 900px;
  }
  .item9 { 
   height: 200px;
   grid-area: graphic;
   opacity: 0.6;
-  left:-600px;
-  width: 1200px;
+  left:-300px;
+  width: 900px;
  }
  
 .grid-container {
