@@ -14,8 +14,8 @@ const starwars = [
   [7, "C", "Who is this Jedi character?", "C", "Qui-Gon Jinn", "Mace Windu" , "Yoda", "Jabba"],
   [8, "C", "Who is this dark Sith lord?", "A", "Darth Maul", "Darth Vader" , "Count Dooku", "Darth Paladuis"],
   [9, "C", "Who is this bounty hunter character?", "B", "Zam Wesell", "Boba Fett" , "Dengar", "Asajj Ventress"],
-  [10, "E", "What is this round spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"],
-  [11, "E", "What is this black spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"],
+  [10, "P", "What is this icy planet called?", "C", "Dagobah", "Bespin" , "Hoth", "Yavin"],
+  [11, "C", "What is name of this famous droid?", "D", "C-3PO", "BB-8" , "IG-88", "R2D2"],
   [12, "E", "What is this black spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"]
 ];
 
@@ -41,7 +41,7 @@ function show() {
  function imperial() {
    document.getElementById('force').innerHTML = "Imperial";
     document.getElementById('characterR').innerHTML = "";
-    document.getElementById('characterI').innerHTML = '<p>Choose a character.....</p><img src="https://40457712.github.io/assessment/images/bobafett290X290.png" onclick="change(&#34;bobafett&#34;)" alt="bobafett" width="100" height="100"><img src="https://40457712.github.io/assessment/images/darthmaul290X290.jpg" onclick="change(&#34;darthmarl&#34;)" alt="darthmarl" width="100" height="100">';
+    document.getElementById('characterI').innerHTML = '<p>Choose a character.....</p><img src="https://40457712.github.io/assessment/images/bobafett290X290.png" onclick="change(&#34;bobafett&#34;)" alt="bobafett" width="100" height="100"><img src="https://40457712.github.io/assessment/images/darthmaul290X290.jpg" onclick="change(&#34;darthmarl&#34;)" alt="darthmarl" width="100" height="100"><img src="https://40457712.github.io/assessment/images/darth290X290.jpg" onclick="change(&#34;darthvader&#34;)" alt="darthvader" width="100" height="100">';
 }
 
 function start() {
@@ -142,6 +142,10 @@ function change(swcharacter) {
         // alert("Welcome " + swcharacter + " to the battle!");
         document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/darthmaul290X290.jpg" alt="darthmaul" width="290px" height="290px">';
      }
+     if( swcharacter === "darthvader" ) {
+      // alert("Welcome " + swcharacter + " to the battle!");
+      document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/darth290X290.jpg" alt="darthvader" width="290px" height="290px">';
+   }
 }
 
 // Change progress bar
