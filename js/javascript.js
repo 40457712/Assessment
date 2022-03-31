@@ -16,7 +16,7 @@ const starwars = [
   [9, "C", "Who is this bounty hunter character?", "B", "Zam Wesell", "Boba Fett" , "Dengar", "Asajj Ventress"],
   [10, "P", "What is this icy planet called?", "C", "Dagobah", "Bespin" , "Hoth", "Yavin"],
   [11, "C", "What is name of this famous droid?", "D", "C-3PO", "BB-8" , "IG-88", "R2D2"],
-  [12, "E", "What is this black spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"]
+  [12, "C", "Who is this Evil Dark Lord character?", "B", "Darth Maul", "Darth Vader" , "Darth Paladuis", "Darth Laser"]
 ];
 
 for (i = 10; i > 0; i --)
