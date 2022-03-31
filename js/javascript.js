@@ -95,14 +95,15 @@ function next() {
 
    if(Qcount == 10) {
       document.getElementById("question").innerHTML = "Click the result button to see how you did in the battle";
+      document.getElementById("picture").innerHTML = "As your battle has end brave warrior!!!";
       document.getElementById("answerA").innerHTML = "";
       document.getElementById("answerB").innerHTML = "";
       document.getElementById("answerC").innerHTML = "";
       document.getElementById("answerD").innerHTML = "";  
       document.getElementById("buttonnext").innerHTML = '<button  id="buttonstart" onclick="results()">RESULTS</button>';
    }else{
-      document.getElementById("picture").innerHTML = '<img src="https://40457712.github.io/assessment/images/' + quiz[(Qcount)][0] + '.jpg" alt="' + quiz[(Qcount)][2] + '">';
       document.getElementById("question").innerHTML = "Question " + (Qcount + 1) + ": " + quiz[(Qcount)][2];
+      document.getElementById("picture").innerHTML = '<img src="https://40457712.github.io/assessment/images/' + quiz[(Qcount)][0] + '.jpg" alt="' + quiz[(Qcount)][2] + '">';
       document.getElementById("answerA").innerHTML = '<input type="radio" name="answer" value="A">' + "A: " + quiz[(Qcount)][4];
       document.getElementById("answerB").innerHTML = '<input type="radio" name="answer" value="B">' + "B: " + quiz[(Qcount)][5];
       document.getElementById("answerC").innerHTML = '<input type="radio" name="answer" value="C">' + "C: " + quiz[(Qcount)][6];
