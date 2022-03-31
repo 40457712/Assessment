@@ -58,7 +58,7 @@ main div {
   grid-area: user;
   height: 300px;
   opacity: 0.7;
-  width: 300px;
+  width: 400px;
 }
 .item1 img {
   transform: scaleX(-1);
@@ -92,7 +92,7 @@ main div {
   grid-area: asideL;
   opacity: 0.7;
   height: 600px;
-  width: 300px;
+  width: 400px;
  }
  
  .item5 { 
@@ -105,7 +105,7 @@ main div {
   height: 700px;
   margin-top:30px;
   padding:20px;
-  width: 300px;
+  width: 400px;
  }
 
 .item5 img {
@@ -119,25 +119,25 @@ main div {
   grid-area: asideR;
   opacity: 0.7;
   height: 600px;
-  width: 300px;
+  width: 400px;
  }
 .item7 { 
   grid-area: scrol;
   height: 120px;
-  width: 900px;
+  width: 1200px;
  }
 .item8 { 
   grid-area: footer;
   opacity: 0.7;
   height: 300px;
-  width: 900px;
+  width: 1200px;
  }
  .item9 { 
   height: 200px;
   grid-area: graphic;
   opacity: 0.6;
   left:-600px;
-  width: 900px;
+  width: 1200px;
  }
  
 .grid-container {
