@@ -6,17 +6,18 @@ var Qcount = 0;
 const quiz = [];
 const starwars = [
   [1 , "C", "Who is this golden droid character?", "C", "R2D2", "BB-8" , "C-3PO", "IG-88"],
-  [2, "P", "What is this planet called?", "B", "Naboo", "Coruscant" , "Alderaan", "Tatooine"],
-  [3, "C", "Who is this Supreme Commander?", "D", "Darth Sidious", "Sumpreme Leader Snoke" , "Darth Yoda", "General Grievous"],
+  [2, "P", "What is this famous planet called?", "B", "Naboo", "Coruscant" , "Alderaan", "Tatooine"],
+  [3, "C", "Who is this Supreme Commander character?", "D", "Darth Sidious", "Sumpreme Leader Snoke" , "Darth Yoda", "General Grievous"],
   [4, "E", "What is the name of this spaceship", "D", "Soulless One", "The Ninka" , "Republic Crusier", "Millennium Falcon"],
-  [5, "C", "Who is this Rebel Leader?", "D", "Lando Calrissian", "Finn" , "Luke Skywalker", "Han Solo"],
-  [6, "C", "Who is this famous droid character??", "B", "R2D2", "BB-8" , "C-3PO", "RX9"],
-  [7, "C", "Who is this Jedi character?", "C", "Qui-Gon Jinn", "Mace Windu" , "Yoda", "Jabba"],
-  [8, "C", "Who is this dark Sith lord?", "A", "Darth Maul", "Darth Vader" , "Count Dooku", "Darth Paladuis"],
+  [5, "C", "Who is this Rebel Leader character?", "D", "Lando Calrissian", "Finn" , "Luke Skywalker", "Han Solo"],
+  [6, "C", "Who is this famous droid character?", "B", "R2D2", "BB-8" , "C-3PO", "RX9"],
+  [7, "C", "Who is this famous Jedi character?", "C", "Qui-Gon Jinn", "Mace Windu" , "Yoda", "Jabba"],
+  [8, "C", "Who is this dark Sith lord character?", "A", "Darth Maul", "Darth Vader" , "Count Dooku", "Darth Paladuis"],
   [9, "C", "Who is this bounty hunter character?", "B", "Zam Wesell", "Boba Fett" , "Dengar", "Asajj Ventress"],
   [10, "P", "What is this icy planet called?", "C", "Dagobah", "Bespin" , "Hoth", "Yavin"],
-  [11, "C", "What is name of this famous droid?", "D", "C-3PO", "BB-8" , "IG-88", "R2D2"],
-  [12, "C", "Who is this Evil Dark Lord character?", "B", "Darth Maul", "Darth Vader" , "Darth Paladuis", "Darth Laser"]
+  [11, "C", "What is name of this famous droid character?", "D", "C-3PO", "BB-8" , "IG-88", "R2D2"],
+  [12, "C", "Who is this Evil Dark Lord character?", "B", "Darth Maul", "Darth Vader" , "Darth Paladuis", "Darth Laser"],
+  [13, "C", "Who is this Imperial commander character?", "B", "Sheev Palpatine", "Grand Moff Tarkin" , "Grand Admiral Thrawn", "General Hux"]
 ];
 
 for (i = 10; i > 0; i --)
@@ -35,7 +36,7 @@ function show() {
  function rebel() {
    document.getElementById('force').innerHTML = "Rebel";
     document.getElementById('characterI').innerHTML = "";
-    document.getElementById('characterR').innerHTML = '<p>Choose a character.....</p><img src="https://40457712.github.io/assessment/images/c3po290X590.jpg" onclick="change(&#34;C3PO&#34;)" alt="c3po" width="100" height="100"><img src="https://40457712.github.io/assessment/images/chewbacca290X290.png" onclick="change(&#34;chewbacca&#34;)" alt="chewbacca" width="100" height="100">';
+    document.getElementById('characterR').innerHTML = '<p>Choose a character.....</p><img src="https://40457712.github.io/assessment/images/c3po290X590.jpg" onclick="change(&#34;C3PO&#34;)" alt="c3po" width="100" height="100"><img src="https://40457712.github.io/assessment/images/chewbacca290X290.png" onclick="change(&#34;chewbacca&#34;)" alt="chewbacca" width="100" height="100"><img src="https://40457712.github.io/assessment/images/joda290X290.jpg" onclick="change(&#34;joda&#34;)" alt="joda" width="100" height="100">';
 }
 
  function imperial() {
@@ -134,6 +135,10 @@ function change(swcharacter) {
         // alert("Welcome " + swcharacter + " to the battle!");
         document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/chewbacca290X290.png" alt="chewbacca" width="290px" height="290px">';
      }
+     if( swcharacter === "joda" ) {
+      // alert("Welcome " + swcharacter + " to the battle!");
+      document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/joda290X290.jpg" alt="joda" width="290px" height="290px">';
+   }
      if( swcharacter === "bobafett" ) {
         // alert("Welcome " + swcharacter + " to the battle!");
         document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/bobafett290X290.png" alt="bobafett" width="290px" height="290px">';
