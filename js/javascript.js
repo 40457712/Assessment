@@ -12,8 +12,8 @@ const starwars = [
   [5, "C", "Who is this Rebel Leader?", "D", "Lando Calrissian", "Finn" , "Luke Skywalker", "Han Solo"],
   [6, "C", "Who is this famous droid character??", "B", "R2D2", "BB-8" , "C-3PO", "RX9"],
   [7, "C", "Who is this Jedi character?", "C", "Qui-Gon Jinn", "Mace Windu" , "Yoda", "Jabba"],
-  [8, "E", "What is this massive spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"],
-  [9, "E", "What is this small spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"],
+  [8, "C", "Who is this dark Sith lord?", "A", "Darth Maul", "Darth Vader" , "Count Dooku", "Darth Paladuis"],
+  [9, "C", "Who is this bounty hunter character?", "B", "Zam Wesell", "Boba Fett" , "Dengar", "Asajj Ventress"],
   [10, "E", "What is this round spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"],
   [11, "E", "What is this black spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"],
   [12, "E", "What is this black spaceship called?", "C", "Darth Maul", "Darth Vader" , "Imperial Destroyer", "Darth Laser"]
