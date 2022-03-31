@@ -77,7 +77,7 @@ function next() {
       //}
    }
 
-   if(Qcount == 9) {
+   if(Qcount == 10) {
       document.getElementById("buttonnext").innerHTML = '<button  id="buttonstart" onclick="results()">RESULTS</button>';
    }else{
    document.getElementById("question").innerHTML = "Question " + (Qcount + 1) + ": " + quiz[(Qcount)][2];
