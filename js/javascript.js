@@ -121,3 +121,23 @@ function change(swcharacter) {
         document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/darthmaul290X290.jpg" alt="darthmaul" width="290px" height="290px">';
      }
 }
+
+// Change progress bar
+
+function myFunctionAdd(t) {
+   var x = document.getElementById("myProgress").value;
+   x = x + t;
+   document.getElementById("myProgress").value = x;
+   //if (x >= 90) {
+   //alert("You are winning the battle");
+   //}
+ }
+ 
+ function myFunctionMinus(t) {
+   var x = document.getElementById("myProgress").value;
+   x = x - t;
+   document.getElementById("myProgress").value = x;
+   //if (x <= 10) {
+   //alert("You are losing the battle");
+   //}
+ }
