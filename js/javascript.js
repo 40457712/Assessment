@@ -62,6 +62,9 @@ function next() {
             alert(quiz[(Qcount - 1)][2] + "You Answered: " + ansr[i].value + " - Correct Answer: " + quiz[(Qcount - 1)][3] + "Q" + (Qcount - 1));
             // if(ansr[i].value == quiz[Qcount][3])
             // alert("You got the correct answer!");
+         }else{
+            alert("You need to click an answer");
+            Qcount -= 1;
          }
       }
       // if(ansr.checked = false){
@@ -70,7 +73,7 @@ function next() {
       //}
    }
 
-   if(Qcount == 10) {
+   if(Qcount == 9) {
       document.getElementById("buttonnext").innerHTML = '<button  id="buttonstart" onclick="results()">RESULTS</button>';
    }else{
    document.getElementById("question").innerHTML = "Question " + (Qcount + 1) + ": " + quiz[(Qcount)][2];
