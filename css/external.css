@@ -36,7 +36,8 @@ nav{
   top:25%;
 }
 
-#buttonindex {
+/* unvisited link */
+a:link {
   background-color: #DAD66F;
   border-radius: 25%;
   color: black;
@@ -45,8 +46,22 @@ nav{
   margin: 20px;
   padding: 30px;
   text-align: center;
-  visibility: hidden;
 }
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+} 
 
 #header {
   left:0px;
