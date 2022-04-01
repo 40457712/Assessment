@@ -32,7 +32,6 @@ nav{
 
 /* unvisited link */
 a:link {
-  float: center;
   background-color: #DAD66F;
   border-radius: 25%;
   color: black;
