@@ -10,7 +10,6 @@ progress {
   background-color: white;
   font-size: 50px;
   height: 30px;
-  width: 290px;
 }
 
 progress::-webkit-progress-value {
@@ -78,7 +77,6 @@ main div {
   grid-area: user;
   height: 300px;
   opacity: 0.7;
-  width: 30%;
 }
 .item1 img {
   transform: scaleX(-1);
@@ -87,7 +85,6 @@ main div {
   grid-area: header;
   height: 300px;
   padding-left: 12%;
-  width: 40%;
 }
 .item2 h1{
   background-color: black;
@@ -103,7 +100,6 @@ main div {
 .item3 { 
   grid-area: timer;
   height: 300px;
-  width: 30%;
 }
 .item4 {
   background-color: white;
@@ -112,7 +108,6 @@ main div {
   grid-area: asideL;
   opacity: 0.7;
   height: 800px;
-  width: 30%;
  }
  
  .item5 { 
@@ -125,7 +120,6 @@ main div {
   height: 800px;
   margin-top:30px;
   padding:10px;
-  width: 40%;
  }
 
 .item5 img {
@@ -139,25 +133,21 @@ main div {
   grid-area: asideR;
   opacity: 0.7;
   height: 800px;
-  width: 30%;
  }
 .item7 { 
   grid-area: scrol;
   height: 120px;
-  width: 90%;
  }
 .item8 { 
   grid-area: footer;
   opacity: 0.7;
   height: 300px;
-  width: 90%;
  }
  .item9 { 
   height: 0px;
   grid-area: graphic;
   opacity: 0.6;
   left:-300px;
-  width: 90%;
  }
  
 .grid-container {
