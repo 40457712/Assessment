@@ -34,19 +34,23 @@ input[type=text] {
   height: 2em;
 }
 
+main div {
+  padding: 4px;
+ }
+
 #settings, #main {
   color: black;
   font-size: 26px;
   padding: 10px;
 }
 
+#characterR, #characterI {
+  cursor: cell;
+}
+
 #main {
   position: relative;
   top: -600px;
-}
-
-main div {
- padding: 4px;
 }
 
 #buttonstart {
