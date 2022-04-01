@@ -19,7 +19,10 @@ const starwars = [
   [12, "C", "Who is this Evil Dark Lord character?", "B", "Darth Maul", "Darth Vader" , "Darth Paladuis", "Darth Laser"],
   [13, "C", "Who is this Imperial commander character?", "B", "Sheev Palpatine", "Grand Moff Tarkin" , "Grand Admiral Thrawn", "General Hux"],
   [14, "E", "What is the name of this Rebel figther spacecraft?", "A", "X-Wing", "Tie Figther" , "Naboo Cruiser", "Imperial Fighter"],
-  [15, "C", "Who is this frog looking character?", "D", "Peppi Bow", "Roo-Roo Page" , "Rish Loo", "Jar Jar Binks"]
+  [15, "C", "Who is this frog looking character?", "D", "Peppi Bow", "Roo-Roo Page" , "Rish Loo", "Jar Jar Binks"],
+  [16, "C", "Who is this handsome looking character?", "A", "Lando Calrissian", "Han Solo" , "General Grievous", "Bail Prestor Organa"],
+  [17, "C", "What is the name of this four legged tank?", "C", "AT-ST", "Y-Wing" , "AT-AT", "Ice walker"],
+  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"]
 ];
 
 for (i = 10; i > 0; i --)
