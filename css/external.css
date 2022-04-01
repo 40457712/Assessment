@@ -19,11 +19,6 @@ h2{
   font-size: 1.5em;
 }
 
-a{
-    color: #DAD66F;
-    font-size: 1em;    
-}
-
 p{
   font-size: 1.4em;
   text-align: center;
@@ -38,6 +33,7 @@ nav{
 
 /* unvisited link */
 a:link {
+  float: center;
   background-color: #DAD66F;
   border-radius: 25%;
   color: black;
