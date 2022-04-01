@@ -36,7 +36,7 @@ function show() {
 }
 
  function buttonshow() { 
-    document.getElementById("button").style.visibility = "visible";
+    document.getElementById("buttonindex").style.visibility = "visible";
 }
 
  function rebel() {
