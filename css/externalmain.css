@@ -169,7 +169,7 @@ main div {
   }
 
   .flying {
-    height: 200px;
+    height: 0px;
     animation: flying 42s linear 10s 1;
     -o-animation: flying 42s linear 10s 1;
     -moz-animation: flying 42s linear 10s 1;
@@ -181,10 +181,12 @@ main div {
   @keyframes flying {
     0% {
       transform: translateX(800px);
+      height:200px;
       left:600px;
       }
       100% {
       transform: translateX(-800px);
+      height:200px;
       left:-600px;
       }
   }
