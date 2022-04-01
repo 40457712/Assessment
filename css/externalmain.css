@@ -29,9 +29,9 @@ input[type=radio] {
 }
 
 input[type=text] {
-  border: 2px;
+  font-size:2em;
   width: 90%;
-  height: 2em;
+  height: 1em;
 }
 
 main div {
