@@ -57,6 +57,10 @@ a:active {
   color: blue;
 } 
 
+#buttonindex {
+  visibility: hidden;
+}
+
 #header {
   left:0px;
   position: relative;
