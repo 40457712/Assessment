@@ -77,6 +77,7 @@ main div {
   grid-area: user;
   height: 300px;
   opacity: 0.7;
+  width:300px;
 }
 .item1 img {
   transform: scaleX(-1);
@@ -100,6 +101,7 @@ main div {
 .item3 { 
   grid-area: timer;
   height: 300px;
+  width:300px;
 }
 .item4 {
   background-color: white;
@@ -108,6 +110,7 @@ main div {
   grid-area: asideL;
   opacity: 0.7;
   height: 800px;
+  width:300px;
  }
  
  .item5 { 
@@ -133,6 +136,7 @@ main div {
   grid-area: asideR;
   opacity: 0.7;
   height: 800px;
+  width:300px;
  }
 .item7 { 
   grid-area: scrol;
