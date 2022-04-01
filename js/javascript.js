@@ -22,6 +22,18 @@ const starwars = [
   [15, "C", "Who is this frog looking character?", "D", "Peppi Bow", "Roo-Roo Page" , "Rish Loo", "Jar Jar Binks"],
   [16, "C", "Who is this handsome looking character?", "A", "Lando Calrissian", "Han Solo" , "General Grievous", "Bail Prestor Organa"],
   [17, "C", "What is the name of this four legged tank?", "C", "AT-ST", "Y-Wing" , "AT-AT", "Ice walker"],
+  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"],
+  [19, "E", "What is this Imperial spacecraft called?", "D", "X-Wing", "Y-Wing" , "Star Destroyer", "TIE Fighter"],
+  [20, "C", "Who is this Dark Lord character?", "C", "General Grievous", "Kylo Ren" , "Count Dooku", "Grand Moff Tarkin"],
+  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"],
+  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"],
+  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"],
+  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"],
+  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"],
+  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"],
+  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"],
+  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"],
+  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"],
   [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"]
 ];
 
