@@ -4,6 +4,7 @@ var Qcount = 0;
 // Create random quiz questions
 
 const quiz = [];
+const answers = [];
 const starwars = [
   [1 , "C", "Who is this golden droid character?", "C", "R2D2", "BB-8" , "C-3PO", "IG-88"],
   [2, "P", "What is this famous planet called?", "B", "Naboo", "Coruscant" , "Alderaan", "Tatooine"],
@@ -80,6 +81,7 @@ function next() {
    var ansr = document.getElementsByName('answer');   
       for(i = 0; i < ansr.length; i++) {
          if(ansr[i].checked){
+            answers.push(ansr[i].value);
             // alert(quiz[(Qcount - 1)][2] + "You Answered: " + ansr[i].value + " - Correct Answer: " + quiz[(Qcount - 1)][3] + "Q" + (Qcount - 1));
             if(ansr[i].value == quiz[Qcount - 1][3]){
                z = document.getElementById('force').innerHTML;
@@ -106,10 +108,6 @@ function next() {
          alert("You need to click an answer");
          Qcount -= 1;
       }
-      // if(ansr.checked = false){
-      //   alert("You need to click an answer");
-      //   Qcount -= 1;
-      //}
    }
 
    if(Qcount == 10) {
@@ -135,7 +133,15 @@ function next() {
 }
 
 function results() {
-   alert("Not done the results yet!");
+   document.getElementById("question").innerHTML = "Your Battle Quiz Results";
+   // Add in victory picture if Rebel or Imperial won or lost.
+   document.getElementById("picture").innerHTML = "For You the battle is over";
+   document.getElementById("answerA").innerHTML = answers;
+   document.getElementById("answerB").innerHTML = "";
+   document.getElementById("answerC").innerHTML = "";
+   document.getElementById("answerD").innerHTML = "";  
+   document.getElementById("buttonnext").innerHTML = "";
+   console.log(answers);
 }
 
 function replay() {
