@@ -75,6 +75,7 @@ function start() {
 }
 
 function next() {
+   document.getElementById("scrolling").innerHTML = "Use the force Luke!......";
    var unchecked = 0;
    var z = "";
    //alert("Qcount " + Qcount);
