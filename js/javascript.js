@@ -5,6 +5,7 @@ var Qcount = 0;
 
 const quiz = [];
 const answers = [];
+const correct =[];
 const starwars = [
   [1 , "C", "Who is this golden droid character?", "C", "R2D2", "BB-8" , "C-3PO", "IG-88"],
   [2, "P", "What is this famous planet called?", "B", "Naboo", "Coruscant" , "Alderaan", "Tatooine"],
@@ -133,15 +134,19 @@ function next() {
 }
 
 function results() {
+   for (i = 10; i > 0; i --){
+      correct.push(quiz[i][3]);
+      }
    document.getElementById("question").innerHTML = "Your Battle Quiz Results";
    // Add in victory picture if Rebel or Imperial won or lost.
    document.getElementById("picture").innerHTML = "For You the battle is over";
-   document.getElementById("answerA").innerHTML = answers;
-   document.getElementById("answerB").innerHTML = "";
-   document.getElementById("answerC").innerHTML = "";
-   document.getElementById("answerD").innerHTML = "";  
+   document.getElementById("answerA").innerHTML = "Your answers";
+   document.getElementById("answerB").innerHTML = answers;
+   document.getElementById("answerC").innerHTML = "Correct answers";
+   document.getElementById("answerD").innerHTML = correct;  
    document.getElementById("buttonnext").innerHTML = "";
    console.log(answers);
+   console.log(correct);
 }
 
 function replay() {
