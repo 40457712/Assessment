@@ -147,7 +147,7 @@ function results() {
       correct.push(quiz[i][3]);
       console.log(i);
    }
-   
+
    document.getElementById("question").innerHTML = "Your Battle Quiz Results";
    // Add in victory picture if Rebel or Imperial won or lost.
    document.getElementById("picture").innerHTML = "For You the battle is over";
@@ -168,27 +168,27 @@ function replay() {
 function change(swcharacter) {
     if( swcharacter === "C3PO" ) {
         // alert("Welcome " + swcharacter + " to the battle!");
-        document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/c3po290X590.jpg" alt="c3po" width="290px" height="290px">';
+        document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/c3po290X590.jpg" alt="c3po" width="248px" height="248px">';
      }
      if( swcharacter === "chewbacca" ) {
         // alert("Welcome " + swcharacter + " to the battle!");
-        document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/chewbacca290X290.png" alt="chewbacca" width="290px" height="290px">';
+        document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/chewbacca290X290.png" alt="chewbacca" width="248px" height="248px">';
      }
      if( swcharacter === "yoda" ) {
       // alert("Welcome " + swcharacter + " to the battle!");
-      document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/yoda290X290.jpg" alt="yoda" width="290px" height="290px">';
+      document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/yoda290X290.jpg" alt="yoda" width="248px" height="248px">';
    }
      if( swcharacter === "bobafett" ) {
         // alert("Welcome " + swcharacter + " to the battle!");
-        document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/bobafett290X290.png" alt="bobafett" width="290px" height="290px">';
+        document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/bobafett290X290.png" alt="bobafett" width="248px" height="248px">';
      }
      if( swcharacter === "darthmarl" ) {
         // alert("Welcome " + swcharacter + " to the battle!");
-        document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/darthmaul290X290.jpg" alt="darthmaul" width="290px" height="290px">';
+        document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/darthmaul290X290.jpg" alt="darthmaul" width="248px" height="248px">';
      }
      if( swcharacter === "darthvader" ) {
       // alert("Welcome " + swcharacter + " to the battle!");
-      document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/darth290X290.jpg" alt="darthvader" width="290px" height="290px">';
+      document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/darth290X290.jpg" alt="darthvader" width="248px" height="248px">';
    }
 }
 
