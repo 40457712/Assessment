@@ -25,16 +25,10 @@ const starwars = [
   [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"],
   [19, "E", "What is this Imperial spacecraft called?", "D", "X-Wing", "Y-Wing" , "Star Destroyer", "TIE Fighter"],
   [20, "C", "Who is this Dark Lord character?", "C", "General Grievous", "Kylo Ren" , "Count Dooku", "Grand Moff Tarkin"],
-  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"],
-  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"],
-  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"],
-  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"],
-  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"],
-  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"],
-  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"],
-  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"],
-  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"],
-  [18, "C", "What is the name of this female character?", "B", "Princess Amidala", "Princess Leia" , "Princess Jamillia", "Mon Mothma"]
+  [21, "C", "What is the name of this lizard looking character?", "B", "Thar Lasan", "Jabba the Hutt" , "Kram Balut", "Maz Kanata"],
+  [22, "P", "What is this Wookie home world called?", "D", "Dagobah", "Naboo" , "Tatoonie", "Kashyyyk"],
+  [23, "P", "What is the name of this creepy planet?", "A", "Dagobah", "Mustafar" , "Dathomir", "Jakku"],
+  [24, "E", "What is the name of massive spacecraft?", "C", "TIE Fighter", "Millennium Falcon" , "Rebel Crusier", "Star Destroyer"]
 ];
 
 for (i = 10; i > 0; i --)
