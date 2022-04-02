@@ -134,7 +134,8 @@ function next() {
 function results() {
    for (i = 0; i > 9; i ++){
       correct.push(quiz[i][3]);
-      }
+      console.log(correct);
+   }
    document.getElementById("question").innerHTML = "Your Battle Quiz Results";
    // Add in victory picture if Rebel or Imperial won or lost.
    document.getElementById("picture").innerHTML = "For You the battle is over";
