@@ -28,7 +28,9 @@ const starwars = [
   [21, "C", "What is the name of this lizard looking character?", "B", "Thar Lasan", "Jabba the Hutt" , "Kram Balut", "Maz Kanata"],
   [22, "P", "What is this Wookie home world called?", "D", "Dagobah", "Naboo" , "Tatoonie", "Kashyyyk"],
   [23, "P", "What is the name of this creepy planet?", "A", "Dagobah", "Mustafar" , "Dathomir", "Jakku"],
-  [24, "E", "What is the name of massive spacecraft?", "C", "TIE Fighter", "Millennium Falcon" , "Rebel Crusier", "Star Destroyer"]
+  [24, "E", "What is the name of massive spacecraft?", "C", "TIE Fighter", "Millennium Falcon" , "Rebel Crusier", "Star Destroyer"],
+  [25, "E", "What is the name of Bobba Fett spacecraft?", "D", "Jango", "Executor" , "Crafter", "Slave 1"],
+  [26, "C", "Who was the queen on Naboo character?", "A", "Amidala", "Leia" , "Jamillia", "Sosha Soruna"]
 ];
 
 for (i = 10; i > 0; i --)
