@@ -127,8 +127,8 @@ main div {
   width: 400px;
  }
 
-.item5 img {
-  padding:2px;
+.item5 img, .item4 img, .item6 img {
+  padding:5px;
 }
 
  .item6 { 
