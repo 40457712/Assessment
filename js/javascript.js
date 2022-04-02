@@ -89,14 +89,16 @@ function next() {
                // alert("You got the correct answer! " + z);
                if (z == "Rebel"){
                   myFunctionAdd(5);
-               }else{
+               }
+               if (z == "Imperial"){
                   myFunctionMinus(5);
                }
             }else{
                //alert("You got the wrong answer! " + z);
                if (z == "Rebel"){
                   myFunctionMinus(5);
-               }else{
+               }
+               if (z == "Imperial"){
                   myFunctionAdd(5);
                }
             }
