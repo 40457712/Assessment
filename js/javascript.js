@@ -86,6 +86,7 @@ function next() {
             // alert(quiz[(Qcount - 1)][2] + "You Answered: " + ansr[i].value + " - Correct Answer: " + quiz[(Qcount - 1)][3] + "Q" + (Qcount - 1));
             if(ansr[i].value == quiz[Qcount - 1][3]){
                z = document.getElementById('force').innerHTML;
+               console.log(z + " + " + ansr[i].value == quiz[Qcount - 1][3]);
                //alert("You got the correct answer! " );
                if (z == "Rebel"){
                   console.log("Correct Rebel");
@@ -191,7 +192,7 @@ function change(swcharacter) {
 // Change progress bar
 
 function myFunctionAdd(t) {
-   console.log("My function add" + t);
+   console.log("My function add " + t);
    var x = document.getElementById("myProgress").value;
    x = x + t;
    document.getElementById("myProgress").value = x;
@@ -201,7 +202,7 @@ function myFunctionAdd(t) {
  }
  
  function myFunctionMinus(t) {
-   console.log("My function minus" + t);
+   console.log("My function minus " + t);
    var x = document.getElementById("myProgress").value;
    x = x - t;
    document.getElementById("myProgress").value = x;
