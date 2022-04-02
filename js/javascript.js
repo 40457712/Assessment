@@ -5,7 +5,7 @@ var Qcount = 0;
 
 const quiz = [];
 const answers = [];
-const correct =[];
+const correct = [];
 const starwars = [
   [1 , "C", "Who is this golden droid character?", "C", "R2D2", "BB-8" , "C-3PO", "IG-88"],
   [2, "P", "What is this famous planet called?", "B", "Naboo", "Coruscant" , "Alderaan", "Tatooine"],
@@ -89,21 +89,21 @@ function next() {
                console.log(z + " + " + ansr[i].value == quiz[Qcount - 1][3]);
                //alert("You got the correct answer! " );
                if (z == "Rebel"){
-                  console.log("Correct Rebel");
+               //   console.log("Correct Rebel");
                   myFunctionAdd(5);
                }
                if (z == "Imperial"){
-                  console.log("Correct Imperial");
+               //   console.log("Correct Imperial");
                   myFunctionMinus(5);
                }
             }else{
                //alert("You got a wrong answer! " );
                if (z == "Rebel"){
-                  console.log("Wrong Rebel");
+               //   console.log("Wrong Rebel");
                   myFunctionMinus(5);
                }
                if (z == "Imperial"){
-                  console.log("Wrong Imperial");
+               //   console.log("Wrong Imperial");
                   myFunctionAdd(5);
                }
             }
@@ -141,9 +141,11 @@ function next() {
 }
 
 function results() {
+   var temp;
    for (i = 0; i > 9; i ++){
+      temp += quiz[i][3];
       correct.push(quiz[i][3]);
-      console.log(correct);
+      console.log(quiz[i][3]);
    }
    document.getElementById("question").innerHTML = "Your Battle Quiz Results";
    // Add in victory picture if Rebel or Imperial won or lost.
@@ -154,7 +156,7 @@ function results() {
    document.getElementById("answerD").innerHTML = correct;  
    document.getElementById("buttonnext").innerHTML = "";
    console.log(answers);
-   console.log(correct);
+   console.log(temp);
 }
 
 function replay() {
@@ -192,7 +194,7 @@ function change(swcharacter) {
 // Change progress bar
 
 function myFunctionAdd(t) {
-   console.log("My function add " + t);
+//   console.log("My function add " + t);
    var x = document.getElementById("myProgress").value;
    x = x + t;
    document.getElementById("myProgress").value = x;
@@ -202,7 +204,7 @@ function myFunctionAdd(t) {
  }
  
  function myFunctionMinus(t) {
-   console.log("My function minus " + t);
+//   console.log("My function minus " + t);
    var x = document.getElementById("myProgress").value;
    x = x - t;
    document.getElementById("myProgress").value = x;
