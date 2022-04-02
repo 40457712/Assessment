@@ -9,7 +9,7 @@ hr {
 progress {
   background-color: white;
   font-size: 50px;
-  height: 30px;
+  height: 40px;
 }
 
 progress::-webkit-progress-value {
@@ -75,7 +75,7 @@ main div {
 
 .item1 {
   grid-area: user;
-  height: 300px;
+  height: 250px;
   opacity: 0.7;
   width: 250px;
 }
@@ -84,34 +84,35 @@ main div {
 }
 .item2 {
   grid-area: header;
-  height: 300px;
-  padding-left: 12%;
+  height: 250px;
   width: 400px;
 }
 .item2 h1{
   background-color: black;
   opacity: 0.7;
-  font-size: 2.5em;
+  font-size: 60px;
 }
 .item2 h2, .item3 h2{
   background-color: black;
-  font-size: 2em;
+  font-size: 60px;
   letter-spacing: 5px;
  }
 
 .item3 { 
   grid-area: timer;
-  height: 300px;
+  height: 250px;
   width: 250px;
 }
 .item4 {
-  background-color: white;
-  border: 10px blue solid;
-  border-radius: 10px;
   grid-area: asideL;
   opacity: 0.7;
-  height: 800px;
+  height: 700px;
   width: 250px;
+ }
+
+ .item4 img{
+  border: 10px blue solid;
+  border-radius: 10px;
  }
  
  .item5 { 
@@ -121,7 +122,7 @@ main div {
   color: rgb(39 133 171 / 1);
   display: grid;
   grid-area: qana;
-  height: 800px;
+  height: 700px;
   margin-top:30px;
   padding:5px;
   width: 400px;
@@ -132,20 +133,25 @@ main div {
 }
 
  .item6 { 
-  background-color: white;
-  border: 10px red solid;
   border-radius: 10px;
   grid-area: asideR;
   opacity: 0.7;
-  height: 800px;
+  height: 700px;
   width: 250px;
  }
+
+ .item6 img{
+  border: 10px red solid;
+  border-radius: 10px;
+ }
+
 .item7 { 
   grid-area: scrol;
   height: 0px;
   left:-300px;
   width:100%;
  }
+ 
 .item8 { 
   grid-area: footer;
   opacity: 0.7;
@@ -155,7 +161,7 @@ main div {
  .item9 { 
   grid-area: graphic;
   height: 0px;
-  opacity: 0.;
+  opacity: 0.8;
   left:-300px;
   width:100%;
  }
@@ -165,9 +171,9 @@ main div {
   display: grid;
   grid-template-areas:
   'user header timer'
+  'scrol scrol scrol'
   'asideL qana asideR'
   'graphic graphic graphic'
-  'scrol scrol scrol'
   'footer footer footer';
   text-align: center;
   justify-content: center;
@@ -185,10 +191,11 @@ main div {
 
   .scrolling {
     height: 0px;
-    animation: flying 42s linear 10s 1;
-    -o-animation: flying 42s linear 10s 1;
-    -moz-animation: flying 42s linear 10s 1;
-    -webkit-animation: flying 42s linear 10s 1;
+    font-size: 50px;
+    animation: flying 120s linear 10s 1;
+    -o-animation: flying 120s linear 10s 1;
+    -moz-animation: flying 120s linear 10s 1;
+    -webkit-animation: flying 120s linear 10s 1;
     /* move 42s infinite;*/
     position: relative;
   }
