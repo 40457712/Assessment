@@ -86,7 +86,6 @@ function next() {
             // alert(quiz[(Qcount - 1)][2] + "You Answered: " + ansr[i].value + " - Correct Answer: " + quiz[(Qcount - 1)][3] + "Q" + (Qcount - 1));
             z = document.getElementById('force').innerHTML;
             if(ansr[i].value == quiz[Qcount - 1][3]){
-               console.log(z + " + " + ansr[i].value == quiz[Qcount - 1][3]);
                //alert("You got the correct answer! " );
                if (z == "Rebel"){
                //   console.log("Correct Rebel");
@@ -142,10 +141,11 @@ function next() {
 
 function results() {
    var temp = "";
-   for (i = 0; i > 9; i ++){
+   for (i = 0; i > 9; i ++)
+   {
       temp += quiz[i][3];
       correct.push(quiz[i][3]);
-      console.log(quiz[i][3]);
+      console.log(i);
    }
    document.getElementById("question").innerHTML = "Your Battle Quiz Results";
    // Add in victory picture if Rebel or Imperial won or lost.
