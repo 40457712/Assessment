@@ -142,7 +142,8 @@ main div {
  }
 .item7 { 
   grid-area: scrol;
-  height: 100px;
+  height: 0px;
+  left:-300px;
   width:100%;
  }
 .item8 { 
@@ -152,9 +153,9 @@ main div {
   width:100%;
  }
  .item9 { 
-  height: 0px;
   grid-area: graphic;
-  opacity: 0.6;
+  height: 0px;
+  opacity: 0.;
   left:-300px;
   width:100%;
  }
@@ -182,6 +183,16 @@ main div {
     position: relative;
   }
 
+  .scrolling {
+    height: 0px;
+    animation: flying 42s linear 10s 1;
+    -o-animation: flying 42s linear 10s 1;
+    -moz-animation: flying 42s linear 10s 1;
+    -webkit-animation: flying 42s linear 10s 1;
+    /* move 42s infinite;*/
+    position: relative;
+  }
+
   @keyframes flying {
     0% {
       transform: translateX(800px);
@@ -191,6 +202,19 @@ main div {
       100% {
       transform: translateX(-800px);
       height:200px;
+      left:-600px;
+      }
+  }
+
+  @keyframes scrolling {
+    0% {
+      transform: translateX(800px);
+      height:50px;
+      left:600px;
+      }
+      100% {
+      transform: translateX(-800px);
+      height:50px;
       left:-600px;
       }
   }
