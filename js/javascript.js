@@ -89,16 +89,12 @@ function next() {
                // alert("You got the correct answer! " + z);
                if (z == "Rebel"){
                   myFunctionAdd(5);
-               }
-               if (z == "Imperial"){
-                  myFunctionMinus(5);
-               }
-            }else{
-               //alert("You got the wrong answer! " + z);
-               if (z == "Rebel"){
+               }else{
                   myFunctionMinus(5);
                }
                if (z == "Imperial"){
+                  myFunctionMinus(5);
+               }else{
                   myFunctionAdd(5);
                }
             }
@@ -136,7 +132,7 @@ function next() {
 }
 
 function results() {
-   for (i = 10; i > 0; i --){
+   for (i = 0; i > 9; i ++){
       correct.push(quiz[i][3]);
       }
    document.getElementById("question").innerHTML = "Your Battle Quiz Results";
