@@ -141,12 +141,13 @@ function next() {
 
 function results() {
    var temp = "";
-   for (i = 0; i > 9; i ++)
+   for (i = 0; i < 9; i ++)
    {
       temp += quiz[i][3];
       correct.push(quiz[i][3]);
       console.log(i);
    }
+   
    document.getElementById("question").innerHTML = "Your Battle Quiz Results";
    // Add in victory picture if Rebel or Imperial won or lost.
    document.getElementById("picture").innerHTML = "For You the battle is over";
