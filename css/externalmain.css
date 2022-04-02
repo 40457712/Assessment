@@ -122,7 +122,7 @@ main div {
   display: grid;
   grid-area: qana;
   height: 800px;
-  margin-top: -200px;
+  margin-top:30px;
   padding:5px;
   width: 400px;
  }
