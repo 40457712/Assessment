@@ -160,9 +160,9 @@ main div {
   grid-template-areas:
   'user header timer'
   'asideL qana asideR'
+  'graphic graphic graphic'
   'scrol scrol scrol'
-  'footer footer footer'
-  'graphic graphic graphic';
+  'footer footer footer';
   text-align: center;
   justify-content: center;
   }
