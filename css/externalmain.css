@@ -71,13 +71,13 @@ main div {
   flex-direction: column;
   justify-content: center;
   place-items: center;
-  width:300px;
 }
 
 .item1 {
   grid-area: user;
   height: 300px;
   opacity: 0.7;
+  width: 250px;
 }
 .item1 img {
   transform: scaleX(-1);
@@ -86,6 +86,7 @@ main div {
   grid-area: header;
   height: 300px;
   padding-left: 12%;
+  width: 400px;
 }
 .item2 h1{
   background-color: black;
@@ -101,6 +102,7 @@ main div {
 .item3 { 
   grid-area: timer;
   height: 300px;
+  width: 250px;
 }
 .item4 {
   background-color: white;
@@ -109,6 +111,7 @@ main div {
   grid-area: asideL;
   opacity: 0.7;
   height: 800px;
+  width: 250px;
  }
  
  .item5 { 
@@ -119,9 +122,9 @@ main div {
   display: grid;
   grid-area: qana;
   height: 800px;
-  margin-top:30px;
-  padding:10px;
-  width:auto;
+  margin-top: -200px;
+  padding:5px;
+  width: 400px;
  }
 
 .item5 img {
@@ -135,6 +138,7 @@ main div {
   grid-area: asideR;
   opacity: 0.7;
   height: 800px;
+  width: 250px;
  }
 .item7 { 
   grid-area: scrol;
