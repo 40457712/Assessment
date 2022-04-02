@@ -141,7 +141,7 @@ function next() {
 }
 
 function results() {
-   var temp;
+   var temp = "";
    for (i = 0; i > 9; i ++){
       temp += quiz[i][3];
       correct.push(quiz[i][3]);
