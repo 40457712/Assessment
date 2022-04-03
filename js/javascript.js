@@ -251,10 +251,14 @@ function myFunctionAdd(t) {
 
       if (diff <= 0) { 
          //start = Date.now() + 1000; 
-         alert("The battle is over!!!"); 
+         console.log("The battle is over!!!"); 
          clearInterval(setID); 
          timerDisplay.textContent = "10:00"; 
       } 
+
+      if (diff == 540) {
+         console.log("One minute has passed");
+      }
    }; 
 
    // Call the timer 
