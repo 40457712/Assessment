@@ -140,6 +140,31 @@ function next() {
 }
 
 function results() {
+   z = document.getElementById('force').innerHTML;
+   if (z == "Rebel"){
+      //   console.log("Correct Rebel");
+      var x = document.getElementById("myProgress").value;
+      if (x > 60){
+         document.getElementById("picture").innerHTML = '<img src="https://40457712.github.io/assessment/images/RebelVictory350X350.jpg" alt="Rebel Victory" width="248px" height="248px">';
+         document.getElementById("buttonnext").innerHTML = "VICTORY";
+      }else{
+         document.getElementById("picture").innerHTML = '<img src="https://40457712.github.io/assessment/images/RebelDefeat350X350.jpg" alt="Rebel Defeat" width="248px" height="248px">';
+         document.getElementById("buttonnext").innerHTML = "DEFEAT";
+      }
+      
+   }
+   if (z == "Imperial"){
+      //   console.log("Correct Rebel");
+      var x = document.getElementById("myProgress").value;
+      if (x < 60){
+         document.getElementById("picture").innerHTML = '<img src="https://40457712.github.io/assessment/images/ImperialVictory350X350.jpg" alt="Imperial Victory" width="248px" height="248px">';
+         document.getElementById("buttonnext").innerHTML = "VICTORY";
+      }else{
+         document.getElementById("picture").innerHTML = '<img src="https://40457712.github.io/assessment/images/ImperialDefeat350X350.jpg" alt="Imperial Defeat" width="248px" height="248px">';
+         document.getElementById("buttonnext").innerHTML = "DEFEAT";
+      }  
+   }
+
    for (i = 0; i < 10; i ++)
    {
       correct.push(quiz[i][3]);
@@ -152,7 +177,7 @@ function results() {
    document.getElementById("answerB").innerHTML = answers;
    document.getElementById("answerC").innerHTML = "Correct answers";
    document.getElementById("answerD").innerHTML = correct;  
-   document.getElementById("buttonnext").innerHTML = "";
+   
 }
 
 function replay() {
