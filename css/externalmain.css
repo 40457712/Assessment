@@ -114,6 +114,7 @@ main div {
  .item4 img{
   border: 10px blue solid;
   border-radius: 10px;
+  margin-right: 10px;
  }
  
  .item5 { 
@@ -144,6 +145,7 @@ main div {
  .item6 img{
   border: 10px red solid;
   border-radius: 10px;
+  margin-left: 10px;
  }
 
 .item7 { 
