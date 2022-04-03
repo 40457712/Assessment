@@ -125,7 +125,7 @@ main div {
   display: grid;
   grid-area: qana;
   height: 700px;
-  margin-top:80px;
+  margin-top:-20px;
   padding:5px;
   width: 400px;
  }
