@@ -174,10 +174,9 @@ function results() {
    }
 
    document.getElementById("question").innerHTML = "Your Battle Quiz Results";
-   
    document.getElementById("answerB").innerHTML = "";
-   document.getElementById("answerC").innerHTML = "<p>Your answers<p>" + answers;
-   document.getElementById("answerD").innerHTML = "<p>Correct answers<p>" + correct;  
+   document.getElementById("answerC").innerHTML = "<p>Your answers" + answers + "</p>";
+   document.getElementById("answerD").innerHTML = "<p>Correct answers" + correct + "</p>"; 
    document.getElementById("buttonnext").innerHTML = '<p><button  id="buttonstart" onclick="replay()">REPLAY</button></p>';
    
 }
