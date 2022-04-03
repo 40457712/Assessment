@@ -184,6 +184,7 @@ main div {
 
   .flying {
     height: 0px;
+    top:-400px;
     animation: flying 42s linear 10s 1;
     -o-animation: flying 42s linear 10s 1;
     -moz-animation: flying 42s linear 10s 1;
