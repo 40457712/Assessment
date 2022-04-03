@@ -142,26 +142,28 @@ function next() {
 function results() {
    z = document.getElementById('force').innerHTML;
    if (z == "Rebel"){
+      document.getElementById("answerA").innerHTML = "The for the Rebel Alliance is over!!!";
       //   console.log("Correct Rebel");
       var x = document.getElementById("myProgress").value;
       if (x > 60){
          document.getElementById("picture").innerHTML = '<img src="https://40457712.github.io/assessment/images/RebelVictory350X350.jpg" alt="Rebel Victory" width="248px" height="248px">';
-         document.getElementById("buttonnext").innerHTML = "VICTORY";
+         document.getElementById("result").innerHTML = "VICTORY";
       }else{
          document.getElementById("picture").innerHTML = '<img src="https://40457712.github.io/assessment/images/RebelDefeat350X350.jpg" alt="Rebel Defeat" width="248px" height="248px">';
-         document.getElementById("buttonnext").innerHTML = "DEFEAT";
+         document.getElementById("result").innerHTML = "DEFEAT";
       }
       
    }
    if (z == "Imperial"){
+      document.getElementById("answerA").innerHTML = "The for the Imperial Darkside is over!!!";
       //   console.log("Correct Rebel");
       var x = document.getElementById("myProgress").value;
       if (x < 60){
          document.getElementById("picture").innerHTML = '<img src="https://40457712.github.io/assessment/images/ImperialVictory350X350.jpg" alt="Imperial Victory" width="248px" height="248px">';
-         document.getElementById("buttonnext").innerHTML = "VICTORY";
+         document.getElementById("result").innerHTML = "VICTORY";
       }else{
          document.getElementById("picture").innerHTML = '<img src="https://40457712.github.io/assessment/images/ImperialDefeat350X350.jpg" alt="Imperial Defeat" width="248px" height="248px">';
-         document.getElementById("buttonnext").innerHTML = "DEFEAT";
+         document.getElementById("result").innerHTML = "DEFEAT";
       }  
    }
 
@@ -171,12 +173,11 @@ function results() {
    }
 
    document.getElementById("question").innerHTML = "Your Battle Quiz Results";
-   // Add in victory picture if Rebel or Imperial won or lost.
-   document.getElementById("picture").innerHTML = "For You the battle is over";
-   document.getElementById("answerA").innerHTML = "Your answers";
-   document.getElementById("answerB").innerHTML = answers;
-   document.getElementById("answerC").innerHTML = "Correct answers";
-   document.getElementById("answerD").innerHTML = correct;  
+   
+   document.getElementById("answerB").innerHTML = "";
+   document.getElementById("answerC").innerHTML = "Your answers" + answers;
+   document.getElementById("answerD").innerHTML = "Correct answers" + correct;  
+   document.getElementById("buttonnext").innerHTML = '<p><button  id="buttonstart" onclick="replay()">REPLAY</button></p>';
    
 }
 
