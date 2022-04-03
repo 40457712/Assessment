@@ -266,7 +266,7 @@ function myFunctionAdd(t) {
 } 
 
 function startCountDown() { 
-var countdownTimer = 60 * 10, 
+var countdownTimer = 60 * 5, 
 countdownDisplay = document.querySelector('#countdown'); 
 startTimer(countdownTimer, countdownDisplay); 
 }; 
