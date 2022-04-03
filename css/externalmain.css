@@ -87,24 +87,26 @@ main div {
   height: 250px;
   width: 400px;
 }
-.item2 h1{
+.item2 h1 {
   background-color: black;
   opacity: 0.7;
   font-size: 40px;
 }
-.item2 h2, .item3 h2{
+.item2 h2 {
   background-color: black;
   font-size: 30px;
   letter-spacing: 8px;
  }
 
 .item3 { 
+  background-color: black;
   color:green;
-  font-size: 30px;
+  font-size: 28px;
   grid-area: timer;
   height: 250px;
   width: 250px;
 }
+
 .item4 {
   grid-area: asideL;
   height: 700px;
@@ -116,7 +118,6 @@ main div {
  .item4 img{
   border: 10px blue solid;
   border-radius: 10px;
-  
  }
  
  .item5 { 
@@ -192,6 +193,12 @@ main div {
     -webkit-animation: flying 30s linear 20s 1;
     /* move 42s infinite;*/
     position: relative;
+  }
+
+  .force {
+    color:white;
+    font-size: 50px;
+    margin-top: -30px;
   }
 
   .scrolling {
