@@ -175,8 +175,8 @@ function results() {
 
    document.getElementById("question").innerHTML = "Your Battle Quiz Results";
    document.getElementById("answerB").innerHTML = "";
-   document.getElementById("answerC").innerHTML = "Your answers......" + answers;
-   document.getElementById("answerD").innerHTML = "Correct answers..." + correct; 
+   document.getElementById("answerC").innerHTML = "Your answers......<br>" + answers;
+   document.getElementById("answerD").innerHTML = "Correct answers...<br>" + correct; 
    document.getElementById("buttonnext").innerHTML = '<button  id="buttonstart" onclick="replay()">REPLAY</button>';
 }
 
