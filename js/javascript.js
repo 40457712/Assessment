@@ -71,6 +71,7 @@ function start() {
    var setup2 = document.getElementById("main");
    // alert("Visiblity of settings is " + setup2.style.visibility);
    setup2.style.visibility = "visible";
+   startCountDown();
    next();
 }
 
@@ -234,3 +235,36 @@ function myFunctionAdd(t) {
    //alert("You are losing the battle");
    //}
  }
+
+ function startTimer(duration, timerDisplay) { 
+   var start = Date.now(), diff, minutes, seconds; 
+   function timer() { 
+      // diff = number of seconds elapsed since start 
+      diff = duration - (((Date.now() - start) / 1000) | 0); 
+
+      minutes = parseInt(diff / 60, 10); 
+      seconds = parseInt(diff % 60, 10); 
+  
+      minutes = minutes < 10 ? "0" + minutes : minutes; 
+      seconds = seconds < 10 ? "0" + seconds : seconds; 
+
+      timerDisplay.textContent = minutes + ":" + seconds;  
+
+      if (diff <= 0) { 
+         //start = Date.now() + 1000; 
+         alert("The battle is over!!!"); 
+         clearInterval(setID); 
+         timerDisplay.textContent = "10:00"; 
+      } 
+   }; 
+
+   // Call the timer 
+   timer(); 
+   var setID = setInterval(timer, 1000); 
+} 
+
+function startCountDown() { 
+var countdownTimer = 60 * 10, 
+countdownDisplay = document.querySelector('#countdown'); 
+startTimer(countdownTimer, countdownDisplay); 
+}; 
