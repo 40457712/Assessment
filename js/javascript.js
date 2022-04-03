@@ -55,7 +55,7 @@ function show() {
  function rebel() {
    document.getElementById('force').innerHTML = "Rebel";
     document.getElementById('characterI').innerHTML = "";
-    document.getElementById('characterR').innerHTML = '<p>Choose a character.....</p><img src="https://40457712.github.io/assessment/images/c3po290X590.jpg" onclick="change(&#34;C3PO&#34;)" alt="c3po" width="100" height="100"><img src="https://40457712.github.io/assessment/images/chewbacca290X290.png" onclick="change(&#34;chewbacca&#34;)" alt="chewbacca" width="100" height="100"><img src="https://40457712.github.io/assessment/images/yoda290X290.jpg" onclick="change(&#34;yoda&#34;)" alt="yoda" width="100" height="100">';
+    document.getElementById('characterR').innerHTML = '<p>Choose a character.....</p><img src="https://40457712.github.io/assessment/images/Luke290X290.jpg" onclick="change(&#34;Luke&#34;)" alt="Luke Skywalker" width="100" height="100"><img src="https://40457712.github.io/assessment/images/chewbacca290X290.jpg" onclick="change(&#34;chewbacca&#34;)" alt="chewbacca" width="100" height="100"><img src="https://40457712.github.io/assessment/images/yoda290X290.jpg" onclick="change(&#34;yoda&#34;)" alt="yoda" width="100" height="100">';
 }
 
  function imperial() {
@@ -186,13 +186,13 @@ function replay() {
 // Look at changing this to switch statement
 
 function change(swcharacter) {
-    if( swcharacter === "C3PO" ) {
+    if( swcharacter === "Luke" ) {
         // alert("Welcome " + swcharacter + " to the battle!");
-        document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/c3po290X590.jpg" alt="c3po" width="248px" height="248px">';
+        document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/Luke290X290.jpg" alt="Luke Skywalker" width="248px" height="248px">';
      }
      if( swcharacter === "chewbacca" ) {
         // alert("Welcome " + swcharacter + " to the battle!");
-        document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/chewbacca290X290.png" alt="chewbacca" width="248px" height="248px">';
+        document.getElementById('characterM').innerHTML = '<img src="https://40457712.github.io/assessment/images/chewbacca290X290.jpg" alt="chewbacca" width="248px" height="248px">';
      }
      if( swcharacter === "yoda" ) {
       // alert("Welcome " + swcharacter + " to the battle!");
