@@ -142,7 +142,7 @@ function next() {
 function results() {
    z = document.getElementById('force').innerHTML;
    if (z == "Rebel"){
-      document.getElementById("answerA").innerHTML = "The for the Rebel Alliance is over!!!";
+      document.getElementById("answerA").innerHTML = "The Battle Quiz for the Rebel Alliance is over!!!";
       //   console.log("Correct Rebel");
       var x = document.getElementById("myProgress").value;
       if (x > 60){
@@ -155,7 +155,7 @@ function results() {
       
    }
    if (z == "Imperial"){
-      document.getElementById("answerA").innerHTML = "The for the Imperial Darkside is over!!!";
+      document.getElementById("answerA").innerHTML = "The Battle Quiz for the Imperial Darkside is over!!!";
       //   console.log("Correct Rebel");
       var x = document.getElementById("myProgress").value;
       if (x < 60){
@@ -175,8 +175,8 @@ function results() {
    document.getElementById("question").innerHTML = "Your Battle Quiz Results";
    
    document.getElementById("answerB").innerHTML = "";
-   document.getElementById("answerC").innerHTML = "Your answers" + answers;
-   document.getElementById("answerD").innerHTML = "Correct answers" + correct;  
+   document.getElementById("answerC").innerHTML = "<p>Your answers<p>" + answers;
+   document.getElementById("answerD").innerHTML = "<p>Correct answers<p>" + correct;  
    document.getElementById("buttonnext").innerHTML = '<p><button  id="buttonstart" onclick="replay()">REPLAY</button></p>';
    
 }
