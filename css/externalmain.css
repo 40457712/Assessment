@@ -100,7 +100,7 @@ main div {
 
 .item3 { 
   color:red;
-  font-size: 60px;
+  font-size: 80px;
   grid-area: timer;
   height: 250px;
   width: 250px;
@@ -198,10 +198,10 @@ main div {
     color:red;
     height: 0px;
     font-size: 0px;
-    animation: flying 20s linear 10s 1;
-    -o-animation: flying 20s linear 10s 1;
-    -moz-animation: flying 20s linear 10s 1;
-    -webkit-animation: flying 20s linear 10s 1;
+    animation: flying 18s linear 60s 1;
+    -o-animation: flying 18s linear 60s 1;
+    -moz-animation: flying 18s linear 60s 1;
+    -webkit-animation: flying 18s linear 60s 1;
     /* move 42s infinite;*/
     position: relative;
   }
