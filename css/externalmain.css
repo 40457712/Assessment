@@ -65,6 +65,15 @@ main div {
   text-align: center;
 }
 
+#force, #countdown {
+  color:white;
+  font-size: 40px;
+}
+
+#force {
+  margin-top: -30px;
+}
+
 .item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, main {
   color:white;
   display: flex;
@@ -193,12 +202,6 @@ main div {
     -webkit-animation: flying 30s linear 20s 1;
     /* move 42s infinite;*/
     position: relative;
-  }
-
-  .force {
-    color:white;
-    font-size: 50px;
-    margin-top: -30px;
   }
 
   .scrolling {
