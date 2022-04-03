@@ -99,6 +99,8 @@ main div {
  }
 
 .item3 { 
+  color:red;
+  font-size: 60px;
   grid-area: timer;
   height: 250px;
   width: 250px;
