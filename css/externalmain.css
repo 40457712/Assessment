@@ -1,6 +1,6 @@
 hr {
   background-color: #DAD66F;
-  border-width:3px;
+  border-width:5px;
   color: rgb(105, 105, 105);
   height: 3px;
   width: 90%;
@@ -10,6 +10,7 @@ progress {
   background-color: white;
   font-size: 50px;
   height: 40px;
+  width:90%;
 }
 
 progress::-webkit-progress-value {
@@ -123,7 +124,7 @@ main div {
   display: grid;
   grid-area: qana;
   height: 700px;
-  margin-top:30px;
+  margin-top:80px;
   padding:5px;
   width: 400px;
  }
@@ -147,7 +148,7 @@ main div {
 
 .item7 { 
   grid-area: scrol;
-  height: 0px;
+  height: 100px;
   left:-300px;
   width:100%;
  }
