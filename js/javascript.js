@@ -140,12 +140,9 @@ function next() {
 }
 
 function results() {
-   var temp = "";
-   for (i = 0; i < 9; i ++)
+   for (i = 0; i < 10; i ++)
    {
-      temp += quiz[i][3];
       correct.push(quiz[i][3]);
-      console.log(i);
    }
 
    document.getElementById("question").innerHTML = "Your Battle Quiz Results";
@@ -156,8 +153,6 @@ function results() {
    document.getElementById("answerC").innerHTML = "Correct answers";
    document.getElementById("answerD").innerHTML = correct;  
    document.getElementById("buttonnext").innerHTML = "";
-   console.log(answers);
-   console.log(temp);
 }
 
 function replay() {
