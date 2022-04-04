@@ -272,5 +272,5 @@ startTimer(countdownTimer, countdownDisplay);
 }; 
 
 window.onbeforeunload = function() {
-  alert("Are you sure you want to refresh the pagr?");
+  return ("Are you sure you want to refresh the pagr?");
 }
