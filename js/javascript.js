@@ -240,8 +240,8 @@ function myFunctionAdd(t) {
       // diff = number of seconds elapsed since start 
       diff = duration - (((Date.now() - start) / 1000) | 0); 
 
-      minutes = parseInt(diff / 60, 5); 
-      seconds = parseInt(diff % 60, 5); 
+      minutes = parseInt(diff / 60, 10); 
+      seconds = parseInt(diff % 60, 10); 
   
       minutes = minutes < 10 ? "0" + minutes : minutes; 
       seconds = seconds < 10 ? "0" + seconds : seconds; 
