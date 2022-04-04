@@ -2,6 +2,7 @@ body{
     background-color:#000000;
     background-image: url("https://40457712.github.io/assessment/images/starfield.jpg");
     height: 100%;
+    overflow: hidden;
     width: 100%;
 }
 
