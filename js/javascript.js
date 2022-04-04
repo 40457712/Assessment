@@ -241,7 +241,7 @@ function myFunctionAdd(t) {
       minutes = parseInt(diff / 60, 10); 
       seconds = parseInt(diff % 60, 10); 
   
-      minutes = minutes < 10 ? "0" + minutes : minutes; 
+      // minutes = minutes < 10 ? "0" + minutes : minutes; 
       seconds = seconds < 10 ? "0" + seconds : seconds; 
 
       timerDisplay.innerHTML = minutes + ":" + seconds;  
@@ -252,9 +252,28 @@ function myFunctionAdd(t) {
          clearInterval(setID); 
          timerDisplay.innerHTML = "5:00"; 
       } 
-
-      if (diff == 240) {
+      z = document.getElementById('force').innerHTML;
+      if (diff == 210) {
          console.log("One minute has passed");
+         if (z == "Rebel"){
+            //   console.log("Wrong Rebel");
+               myFunctionMinus(10);
+            }
+            if (z == "Imperial"){
+            //   console.log("Wrong Imperial");
+               myFunctionAdd(10);
+            }
+      }
+      if (diff == 180) {
+         console.log("One minute has passed");
+         if (z == "Rebel"){
+            //   console.log("Wrong Rebel");
+               myFunctionMinus(10);
+            }
+            if (z == "Imperial"){
+            //   console.log("Wrong Imperial");
+               myFunctionAdd(10);
+            }
       }
    } 
 
