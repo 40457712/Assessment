@@ -35,8 +35,7 @@ const starwars = [
   [26, "C", "Who was the queen on Naboo character?", "A", "Amidala", "Leia" , "Jamillia", "Sosha Soruna"]
 ];
 
-for (i = 10; i > 0; i --)
-{
+for (i = 10; i > 0; i --) {
 random = Math.floor(Math.random() * (starwars.length));
 quiz.push(starwars[random]);
 starwars.splice(random , 1);
@@ -155,7 +154,7 @@ function results() {
       }
       
    }
-   if (z == "Imperial"){
+   if (z == "Imperial") {
       document.getElementById("answerA").innerHTML = "The Battle Quiz for the Imperial Darkside is over!!!";
       //   console.log("Correct Rebel");
       var x = document.getElementById("myProgress").value;
@@ -168,8 +167,7 @@ function results() {
       }  
    }
 
-   for (i = 0; i < 10; i ++)
-   {
+   for (i = 0; i < 10; i ++) {
       correct.push(quiz[i][3]);
    }
 
@@ -265,12 +263,12 @@ function myFunctionAdd(t) {
  //  var setID = setInterval(timer, 1000); 
 //} 
 
-function startCountDown() { 
-var countdownTimer = 60 * 5, 
-countdownDisplay = document.querySelector('#countdown'); 
+// function startCountDown() { 
+// var countdownTimer = 60 * 5, 
+// countdownDisplay = document.querySelector('#countdown'); 
 //startTimer(countdownTimer, countdownDisplay); 
-}
+//}
 
-window.onbeforeunload = function() {
-  return ("Are you sure you want to refresh the pagr?");
-}
+//window.onbeforeunload = function() {
+//  return ("Are you sure you want to refresh the pagr?");
+//}
