@@ -234,42 +234,42 @@ function myFunctionAdd(t) {
    //}
  }
 
- function startTimer(duration, timerDisplay) { 
-   var start = Date.now(), diff, minutes, seconds; 
-   function timer() { 
+ //function startTimer(duration, timerDisplay) { 
+ //  var start = Date.now(), diff, minutes, seconds; 
+ //  function timer() { 
       // diff = number of seconds elapsed since start 
-      diff = duration - (((Date.now() - start) / 1000) | 0); 
+  //    diff = duration - (((Date.now() - start) / 1000) | 0); 
 
-      minutes = parseInt(diff / 60, 10); 
-      seconds = parseInt(diff % 60, 10); 
+  //    minutes = parseInt(diff / 60, 10); 
+  //    seconds = parseInt(diff % 60, 10); 
   
-      minutes = minutes < 10 ? "0" + minutes : minutes; 
-      seconds = seconds < 10 ? "0" + seconds : seconds; 
+  //    minutes = minutes < 10 ? "0" + minutes : minutes; 
+  //    seconds = seconds < 10 ? "0" + seconds : seconds; 
 
-      timerDisplay.innerHTML = minutes + ":" + seconds;  
+  //    timerDisplay.innerHTML = minutes + ":" + seconds;  
 
-      if (diff <= 0) { 
+ //     if (diff <= 0) { 
          //start = Date.now() + 1000; 
-         console.log("The battle is over!!!"); 
-         clearInterval(setID); 
-         timerDisplay.innerHTML = "5:00"; 
-      } 
+   //      console.log("The battle is over!!!"); 
+   //      clearInterval(setID); 
+   //      timerDisplay.innerHTML = "5:00"; 
+   //   } 
 
-      if (diff == 240) {
-         console.log("One minute has passed");
-      }
-   }; 
+   //   if (diff == 240) {
+   //      console.log("One minute has passed");
+   //   }
+  // }; 
 
    // Call the timer 
    // timer(); 
-   var setID = setInterval(timer, 1000); 
-} 
+ //  var setID = setInterval(timer, 1000); 
+//} 
 
 function startCountDown() { 
 var countdownTimer = 60 * 5, 
 countdownDisplay = document.querySelector('#countdown'); 
-startTimer(countdownTimer, countdownDisplay); 
-}; 
+//startTimer(countdownTimer, countdownDisplay); 
+}
 
 window.onbeforeunload = function() {
   return ("Are you sure you want to refresh the pagr?");
