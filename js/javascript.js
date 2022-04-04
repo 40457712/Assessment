@@ -255,7 +255,7 @@ function myFunctionAdd(t) {
          timerDisplay.textContent = "10:00"; 
       } 
 
-      if (diff == 540) {
+      if (diff == 240) {
          console.log("One minute has passed");
       }
    }; 
