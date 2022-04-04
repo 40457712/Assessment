@@ -250,10 +250,10 @@ function myFunctionAdd(t) {
          //start = Date.now() + 1000; 
          console.log("The battle is over!!!"); 
          clearInterval(setID); 
-         timerDisplay.innerHTML = "5:00"; 
+         timerDisplay.innerHTML = "3:00"; 
       } 
       z = document.getElementById('force').innerHTML;
-      if (diff == 210) {
+      if (diff == 120) {
          console.log("One minute has passed");
          if (z == "Rebel"){
             //   console.log("Wrong Rebel");
@@ -264,7 +264,7 @@ function myFunctionAdd(t) {
                myFunctionAdd(10);
             }
       }
-      if (diff == 180) {
+      if (diff == 60) {
          console.log("One minute has passed");
          if (z == "Rebel"){
             //   console.log("Wrong Rebel");
