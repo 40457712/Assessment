@@ -70,7 +70,7 @@ function start() {
    var setup2 = document.getElementById("main");
    // alert("Visiblity of settings is " + setup2.style.visibility);
    setup2.style.visibility = "visible";
-//   startCountDown();
+   startCountDown();
    next();
 }
 
@@ -263,11 +263,11 @@ function myFunctionAdd(t) {
  //  var setID = setInterval(timer, 1000); 
 //} 
 
-// function startCountDown() { 
-// var countdownTimer = 60 * 5, 
-// countdownDisplay = document.querySelector('#countdown'); 
+function startCountDown() { 
+   var countdownTimer = 60 * 5, 
+   countdownDisplay = document.querySelector('#countdown'); 
 //startTimer(countdownTimer, countdownDisplay); 
-//}
+}
 
 //window.onbeforeunload = function() {
 //  return ("Are you sure you want to refresh the pagr?");
