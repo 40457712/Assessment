@@ -246,7 +246,7 @@ function myFunctionAdd(t) {
       minutes = minutes < 10 ? "0" + minutes : minutes; 
       seconds = seconds < 10 ? "0" + seconds : seconds; 
 
-      timerDisplay.textContent = minutes + ":" + seconds;  
+      // timerDisplay.textContent = minutes + ":" + seconds;  
 
       if (diff <= 0) { 
          //start = Date.now() + 1000; 
