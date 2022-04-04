@@ -270,3 +270,7 @@ var countdownTimer = 60 * 5,
 countdownDisplay = document.querySelector('#countdown'); 
 startTimer(countdownTimer, countdownDisplay); 
 }; 
+
+window.onbeforeunload = function() {
+  alert("Are you sure you want to refresh the pagr?");
+}
