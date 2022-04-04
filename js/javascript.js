@@ -252,7 +252,7 @@ function myFunctionAdd(t) {
          //start = Date.now() + 1000; 
          console.log("The battle is over!!!"); 
          clearInterval(setID); 
-         timerDisplay.textContent = "10:00"; 
+         timerDisplay.textContent = "5:00"; 
       } 
 
       if (diff == 240) {
