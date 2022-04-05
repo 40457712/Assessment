@@ -1,5 +1,6 @@
 var swcharacter = "";
 var Qcount = 0;
+var Results = False;
 
 // Create random quiz questions
 
@@ -154,6 +155,7 @@ function next() {
 //Display results and correct answers
 
 function results() {
+   Results = True;
    document.getElementById("scrolling").innerHTML = "The battle is over you fought well warrior";
    z = document.getElementById('force').innerHTML;
    if (z == "Rebel"){
@@ -186,7 +188,7 @@ function results() {
          correct.push(quiz[i][3]);
       }
    }
-   
+
    document.getElementById("question").innerHTML = "Your Battle Quiz Results";
    document.getElementById("answerB").innerHTML = "";
    document.getElementById("answerC").innerHTML = "Your answers......<br>" + answers;
@@ -254,6 +256,10 @@ function myFunctionAdd(t) {
  // Start a timer from minutes
 
  function startTimer(duration, timerDisplay) { 
+   if (Results == True){
+      clearInterval(setID); 
+      timerDisplay.innerHTML = "3:00";
+   }
    var start = Date.now(), diff, minutes, seconds; 
    function timer() { 
       // diff = number of seconds elapsed since start 
