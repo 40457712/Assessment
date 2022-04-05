@@ -6,6 +6,9 @@ var Qcount = 0;
 const quiz = [];
 const answers = [];
 const correct = [];
+
+// Large array of Unique questions
+
 const starwars = [
   [1 , "C", "Who is this golden droid character?", "C", "R2D2", "BB-8" , "C-3PO", "IG-88"],
   [2, "P", "What is this famous planet called?", "B", "Naboo", "Coruscant" , "Alderaan", "Tatooine"],
@@ -35,6 +38,8 @@ const starwars = [
   [26, "C", "Who was the queen on Naboo character?", "A", "Amidala", "Leia" , "Jamillia", "Sosha Soruna"]
 ];
 
+// Pick 10 random unique questions from the array above
+
 for (i = 10; i > 0; i --) {
 random = Math.floor(Math.random() * (starwars.length));
 quiz.push(starwars[random]);
@@ -63,6 +68,8 @@ function show() {
     document.getElementById('characterI').innerHTML = '<p>Choose a character.....</p><img src="https://40457712.github.io/assessment/images/bobafett290X290.png" onclick="change(&#34;bobafett&#34;)" alt="bobafett" width="100" height="100"><img src="https://40457712.github.io/assessment/images/darthmaul290X290.jpg" onclick="change(&#34;darthmarl&#34;)" alt="darthmarl" width="100" height="100"><img src="https://40457712.github.io/assessment/images/darth290X290.jpg" onclick="change(&#34;darthvader&#34;)" alt="darthvader" width="100" height="100">';
 }
 
+// Start function to make main screen visible
+
 function start() {
    var setup1 = document.getElementById("settings");
    // alert("Visiblity of settings is " + setup1.style.visibility);
@@ -73,6 +80,8 @@ function start() {
    startCountDown();
    next();
 }
+
+// Select next question after checking results
 
 function next() {
    document.getElementById("scrolling").innerHTML = "Use the force Jedi...";
@@ -114,7 +123,6 @@ function next() {
       
       if (unchecked == 4){
          alert("You need to click an answer");
-         Qcount -= 1;
          return;
       }
    }
@@ -140,6 +148,8 @@ function next() {
    //alert("Qcount " + Qcount);
    }
 }
+
+//Display results and correct answers
 
 function results() {
    document.getElementById("scrolling").innerHTML = "The battle is over you fought well warrior";
@@ -181,10 +191,13 @@ function results() {
    document.getElementById("buttonnext").innerHTML = '<button  id="buttonstart" onclick="replay()">REPLAY</button>';
 }
 
+// Restart the quiz
+
 function replay() {
    document.location.reload(true);
 }
-// Look at changing this to switch statement
+
+// Change character image to one user selects
 
 function change(swcharacter) {
     if( swcharacter === "Luke" ) {
@@ -213,7 +226,7 @@ function change(swcharacter) {
    }
 }
 
-// Change progress bar
+// Change progress bar plus or minus
 
 function myFunctionAdd(t) {
 //   console.log("My function add " + t);
@@ -235,6 +248,8 @@ function myFunctionAdd(t) {
    //}
  }
 
+ // Start a timer from minutes
+
  function startTimer(duration, timerDisplay) { 
    var start = Date.now(), diff, minutes, seconds; 
    function timer() { 
@@ -251,11 +266,24 @@ function myFunctionAdd(t) {
 
       if (diff <= 0) { 
          //start = Date.now() + 1000; 
-         console.log("The battle is over!!!"); 
+         console.log("Your time has run out!!!");
+         document.getElementById("scrolling").innerHTML = "Your time has run out!!!"; 
          clearInterval(setID); 
          timerDisplay.innerHTML = "3:00"; 
       } 
       z = document.getElementById('force').innerHTML;
+      if (diff == 150) {
+         console.log("Thirty seconds has passed");
+         document.getElementById("scrolling").innerHTML = "Thirty seconds has passed";
+         if (z == "Rebel"){
+            //   console.log("Wrong Rebel");
+               myFunctionMinus(10);
+            }
+            if (z == "Imperial"){
+            //   console.log("Wrong Imperial");
+               myFunctionAdd(10);
+            }
+      }
       if (diff == 120) {
          console.log("One minute has passed");
          document.getElementById("scrolling").innerHTML = "One minute has passed";
@@ -268,9 +296,33 @@ function myFunctionAdd(t) {
                myFunctionAdd(10);
             }
       }
+      if (diff == 90) {
+         console.log("One minute thirty seconds has passed");
+         document.getElementById("scrolling").innerHTML = "One minute thirty seconds has passed";
+         if (z == "Rebel"){
+            //   console.log("Wrong Rebel");
+               myFunctionMinus(10);
+            }
+            if (z == "Imperial"){
+            //   console.log("Wrong Imperial");
+               myFunctionAdd(10);
+            }
+      }
       if (diff == 60) {
-         console.log("One minute has passed");
+         console.log("Two minutes has passed");
          document.getElementById("scrolling").innerHTML = "Two minutes has passed";
+         if (z == "Rebel"){
+            //   console.log("Wrong Rebel");
+               myFunctionMinus(10);
+            }
+            if (z == "Imperial"){
+            //   console.log("Wrong Imperial");
+               myFunctionAdd(10);
+            }
+      }
+      if (diff == 30) {
+         console.log("Two minutes thirty seconds has passed");
+         document.getElementById("scrolling").innerHTML = "Two minutes thirty seconds has passed";
          if (z == "Rebel"){
             //   console.log("Wrong Rebel");
                myFunctionMinus(10);
@@ -287,12 +339,14 @@ function myFunctionAdd(t) {
    var setID = setInterval(timer, 1000); 
 } 
 
+// Start a countdown timer
+
 function startCountDown() { 
    var countdownTimer = 60 * 3, 
    countdownDisplay = document.querySelector('#countdown'); 
    startTimer(countdownTimer, countdownDisplay); 
 }
 
-//window.onbeforeunload = function() {
-//  return ("Are you sure you want to refresh the pagr?");
-//}
+window.onhashchange = function() {
+   console.log("Browser buttonn pressed")
+}
