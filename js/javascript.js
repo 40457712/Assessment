@@ -75,7 +75,7 @@ function start() {
 }
 
 function next() {
-   document.getElementById("scrolling").innerHTML = "Use the force Jedi...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alex BLOWS goats FACT!!!";
+   document.getElementById("scrolling").innerHTML = "Use the force Jedi...";
    var unchecked = 0;
    var z = "";
    //alert("Qcount " + Qcount);
@@ -125,6 +125,7 @@ function next() {
       document.getElementById("answerC").innerHTML = "";
       document.getElementById("answerD").innerHTML = "";  
       document.getElementById("buttonnext").innerHTML = '<p><button  id="buttonstart" onclick="results()">RESULTS</button></p>';
+      document.getElementById("scrolling").innerHTML = "The Battle is raging fight to the death";
    }else{
       document.getElementById("question").innerHTML = "Question " + (Qcount + 1) + ": " + quiz[(Qcount)][2];
       document.getElementById("picture").innerHTML = '<img src="https://40457712.github.io/assessment/images/' + quiz[(Qcount)][0] + '.jpg" alt="' + quiz[(Qcount)][2] + '">';
@@ -140,6 +141,7 @@ function next() {
 }
 
 function results() {
+   document.getElementById("scrolling").innerHTML = "The battle is over you fought well warrior";
    z = document.getElementById('force').innerHTML;
    if (z == "Rebel"){
       document.getElementById("answerA").innerHTML = "The Battle Quiz for the Rebel Alliance is over!!!";
