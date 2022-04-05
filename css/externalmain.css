@@ -162,7 +162,7 @@ main div {
 
 .item7 { 
   grid-area: scrol;
-  height: 0px;
+  height: 100px;
   left:-300px;
   width:100%;
  }
@@ -208,10 +208,10 @@ main div {
     color:red;
     height: 0px;
     font-size: 50px;
-    animation: scrolling 18s linear 30s 1;
-    -o-animation: scrolling 18s linear 30s 1;
-    -moz-animation: scrolling 18s linear 30s 1;
-    -webkit-animation: scrolling 18s linear 30s 1;
+    animation: scrolling 18s linear 0s 1;
+    -o-animation: scrolling 18s linear 0s 1;
+    -moz-animation: scrolling 18s linear 0s 1;
+    -webkit-animation: scrolling 18s linear 0s 1;
     /* move 42s infinite;*/
     position: relative;
   }
