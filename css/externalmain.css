@@ -209,10 +209,10 @@ main div {
     height: 80px;
     left:-2000px;
     font-size: 50px;
-    animation: scrolling 20s infinite 20s 1;
-    -o-animation: scrolling 20s infinite 20s 1;
-    -moz-animation: scrolling 20s infinite 20s 1;
-    -webkit-animation: scrolling 20s infinite 20s 1;
+    animation: scrolling 20s infinite 5s 1;
+    -o-animation: scrolling 20s infinite 5s 1;
+    -moz-animation: scrolling 20s infinite 5s 1;
+    -webkit-animation: scrolling 20s infinite 5s 1;
     /* move 42s infinite;*/
     position: relative;
   }
