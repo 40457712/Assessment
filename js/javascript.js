@@ -113,7 +113,6 @@ function next() {
       
       if (unchecked == 4){
          alert("You need to click an answer");
-         Qcount -= 1;
       }
    }
 
