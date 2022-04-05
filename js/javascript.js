@@ -84,7 +84,7 @@ function start() {
 // Select next question after checking results
 
 function next() {
-   document.getElementById("scrolling").innerHTML = "Use the force Jedi...";
+   
    var unchecked = 0;
    var z = "";
    //alert("Qcount " + Qcount);
@@ -108,10 +108,12 @@ function next() {
             }else{
                //alert("You got a wrong answer! " );
                if (z == "Rebel"){
+                  document.getElementById("scrolling").innerHTML = "Use the force Jedi...to improve your answers";
                //   console.log("Wrong Rebel");
                   myFunctionMinus(5);
                }
                if (z == "Imperial"){
+                  document.getElementById("scrolling").innerHTML = "Call on the Darkside...to improve your answers";
                //   console.log("Wrong Imperial");
                   myFunctionAdd(5);
                }
