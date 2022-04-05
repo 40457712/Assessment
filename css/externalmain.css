@@ -206,8 +206,8 @@ main div {
   .scrolling {
     color:red;
     height: 0px;
-    font-size: 0px;
-    animation: fscrolling 18s linear 60s 1;
+    font-size: 200px;
+    animation: scrolling 18s linear 60s 1;
     -o-animation: scrolling 18s linear 60s 1;
     -moz-animation: scrolling 18s linear 60s 1;
     -webkit-animation: scrolling 18s linear 60s 1;
