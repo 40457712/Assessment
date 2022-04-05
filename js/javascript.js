@@ -75,7 +75,7 @@ function start() {
 }
 
 function next() {
-   document.getElementById("scrolling").innerHTML = "Use the force Jedi...                                                                             the battle is ragging                                                             Alex BLOWS goats FACT!!!";
+   document.getElementById("scrolling").innerHTML = "Use the force Jedi...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alex BLOWS goats FACT!!!";
    var unchecked = 0;
    var z = "";
    //alert("Qcount " + Qcount);
