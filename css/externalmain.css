@@ -163,7 +163,6 @@ main div {
 .item7 { 
   grid-area: scrol;
   height: 100px;
-  left:-300px;
   width:100%;
  }
 
