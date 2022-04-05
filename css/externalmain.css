@@ -207,10 +207,10 @@ main div {
     color:red;
     height: 0px;
     font-size: 0px;
-    animation: flying 18s linear 60s 1;
-    -o-animation: flying 18s linear 60s 1;
-    -moz-animation: flying 18s linear 60s 1;
-    -webkit-animation: flying 18s linear 60s 1;
+    animation: fscrolling 18s linear 60s 1;
+    -o-animation: scrolling 18s linear 60s 1;
+    -moz-animation: scrolling 18s linear 60s 1;
+    -webkit-animation: scrolling 18s linear 60s 1;
     /* move 42s infinite;*/
     position: relative;
   }
@@ -230,5 +230,16 @@ main div {
       height:300px;
       left:-600px;
       top:-900px;
+      }
+  }
+
+  @keyframes scrolling {
+    0% {
+      height:100px;
+      left:600px;
+      }
+    100% {
+      height:100px;
+      left:-600px;
       }
   }
