@@ -257,6 +257,7 @@ function myFunctionAdd(t) {
       z = document.getElementById('force').innerHTML;
       if (diff == 120) {
          console.log("One minute has passed");
+         document.getElementById("scrolling").innerHTML = "One minute has passed";
          if (z == "Rebel"){
             //   console.log("Wrong Rebel");
                myFunctionMinus(10);
@@ -268,6 +269,7 @@ function myFunctionAdd(t) {
       }
       if (diff == 60) {
          console.log("One minute has passed");
+         document.getElementById("scrolling").innerHTML = "Two minutes has passed";
          if (z == "Rebel"){
             //   console.log("Wrong Rebel");
                myFunctionMinus(10);
