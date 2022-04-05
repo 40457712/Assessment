@@ -207,7 +207,7 @@ main div {
   .scrolling {
     color:red;
     height: 80px;
-    left:-1000px;
+    left:-2000px;
     font-size: 50px;
     animation: scrolling 20s linear 20s 1;
     -o-animation: scrolling 20s linear 20s 1;
