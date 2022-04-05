@@ -196,10 +196,10 @@ main div {
 
   .flying {
     height: 0px;
-    animation: flying 60s linear 20s 1;
-    -o-animation: flying 60s linear 20s 1;
-    -moz-animation: flying 60s linear 20s 1;
-    -webkit-animation: flying 60s linear 20s 1;
+    animation: flying 20s linear 50s 1;
+    -o-animation: flying 20s linear 50s 1;
+    -moz-animation: flying 20s linear 50s 1;
+    -webkit-animation: flying 20s linear 50s 1;
     /* move 42s infinite;*/
     position: relative;
   }
@@ -238,7 +238,7 @@ main div {
   @keyframes scrolling {
     0% {
       height:50px;
-      left:1200px;
+      left:1500px;
       }
     100% {
       height:50px;
