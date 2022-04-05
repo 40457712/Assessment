@@ -1,6 +1,6 @@
 var swcharacter = "";
 var Qcount = 0;
-var Results = False;
+var Results = false;
 
 // Create random quiz questions
 
@@ -155,7 +155,7 @@ function next() {
 //Display results and correct answers
 
 function results() {
-   Results = True;
+   Results = true;
    document.getElementById("scrolling").innerHTML = "The battle is over you fought well warrior";
    z = document.getElementById('force').innerHTML;
    if (z == "Rebel"){
@@ -270,7 +270,7 @@ function myFunctionAdd(t) {
 
       timerDisplay.innerHTML = minutes + ":" + seconds;  
       
-      if (Results == True){
+      if (Results == true){
          clearInterval(setID); 
          timerDisplay.innerHTML = "3:00";
       }
