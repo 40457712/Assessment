@@ -269,7 +269,8 @@ function myFunctionAdd(t) {
          console.log("Your time has run out!!!");
          document.getElementById("scrolling").innerHTML = "Your time has run out!!!"; 
          clearInterval(setID); 
-         timerDisplay.innerHTML = "3:00"; 
+         timerDisplay.innerHTML = "3:00";
+         results(); 
       } 
       z = document.getElementById('force').innerHTML;
       if (diff == 150) {
