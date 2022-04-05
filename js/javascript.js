@@ -181,11 +181,12 @@ function results() {
          document.getElementById("result").innerHTML = "DEFEAT";
       }  
    }
-
-   for (i = 0; i < 10; i ++) {
-      correct.push(quiz[i][3]);
+   if (correct.length == 0){
+      for (i = 0; i < 10; i ++) {
+         correct.push(quiz[i][3]);
+      }
    }
-
+   
    document.getElementById("question").innerHTML = "Your Battle Quiz Results";
    document.getElementById("answerB").innerHTML = "";
    document.getElementById("answerC").innerHTML = "Your answers......<br>" + answers;
