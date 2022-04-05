@@ -256,10 +256,7 @@ function myFunctionAdd(t) {
  // Start a timer from minutes
 
  function startTimer(duration, timerDisplay) { 
-   if (Results == True){
-      clearInterval(setID); 
-      timerDisplay.innerHTML = "3:00";
-   }
+   
    var start = Date.now(), diff, minutes, seconds; 
    function timer() { 
       // diff = number of seconds elapsed since start 
@@ -272,6 +269,11 @@ function myFunctionAdd(t) {
       seconds = seconds < 10 ? "0" + seconds : seconds; 
 
       timerDisplay.innerHTML = minutes + ":" + seconds;  
+      
+      if (Results == True){
+         clearInterval(setID); 
+         timerDisplay.innerHTML = "3:00";
+      }
 
       if (diff <= 0) { 
          //start = Date.now() + 1000; 
