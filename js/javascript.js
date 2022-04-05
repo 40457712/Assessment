@@ -348,5 +348,5 @@ function startCountDown() {
 }
 
 window.onhashchange = function() {
-   console.log("Browser buttonn pressed")
+   console.log("Browser buttonn pressed");
 }
