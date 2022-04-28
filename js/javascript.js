@@ -72,7 +72,7 @@ function show() {
 // Start function to make main screen visible
 
 function start() {
-   var x = document.getElementById("inputname").innerText;
+   var x = document.getElementById("inputname").select();
    alert("Your name is " + x);
    var setup1 = document.getElementById("settings");
    // alert("Visiblity of settings is " + setup1.style.visibility);
