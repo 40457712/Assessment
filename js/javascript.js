@@ -72,8 +72,8 @@ function show() {
 // Start function to make main screen visible
 
 function start() {
-   var x = document.getElementById("inputname").value;
-   alert("Your name is " + x);
+   localStorage.setItem("Uname",document.getElementById("inputname").value);
+   
    var setup1 = document.getElementById("settings");
    // alert("Visiblity of settings is " + setup1.style.visibility);
    setup1.style.visibility = "hidden";
@@ -157,8 +157,9 @@ function next() {
 //Display results and correct answers
 
 function results() {
+   let uName = localStorage.getItem("Uname");
    Results = true;
-   document.getElementById("scrolling").innerHTML = "The battle is over you fought well warrior";
+   document.getElementById("scrolling").innerHTML = "The battle is over " + uName + ", you fought well warrior";
    z = document.getElementById('force').innerHTML;
    if (z == "Rebel"){
       document.getElementById("answerA").innerHTML = "The Battle Quiz for the Rebel Alliance is over!!!";
